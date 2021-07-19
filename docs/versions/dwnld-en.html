@@ -11,21 +11,22 @@
 <meta name="description" content="Downloads - Version history - Web Experience Toolkit (WET)">
 <!-- Meta data-->
 <!--[if gte IE 9 | !IE ]><!-->
-<link href="../../GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon">
-<link rel="stylesheet" href="../../GCWeb/css/theme.min.css">
+<link href="../../assets/favicon.ico" rel="icon" type="image/x-icon">
+<link rel="stylesheet" href="../../css/wet-boew.min.css">
 <!--<![endif]-->
+<link rel="stylesheet" href="../../css/theme.min.css">
 <!--[if lt IE 9]>
-		<link href="../../GCWeb/assets/favicon.ico" rel="shortcut icon" />
+		<link href="../../assets/favicon.ico" rel="shortcut icon" />
 		
-		<link rel="stylesheet" href="../../GCWeb/css/ie8-theme.min.css" />
+		<link rel="stylesheet" href="../../css/ie8-wet-boew.min.css" />
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script src="../../wet-boew/js/ie8-wet-boew.min.js"></script>
+		<script src="../../js/ie8-wet-boew.min.js"></script>
 		<![endif]-->
 <!--[if lte IE 9]>
 		
 		
 		<![endif]-->
-<noscript><link rel="stylesheet" href="../../wet-boew/css/noscript.min.css" /></noscript>
+<noscript><link rel="stylesheet" href="../../css/noscript.min.css" /></noscript>
 <!-- Google Tag Manager DO NOT REMOVE OR MODIFY - NE PAS SUPPRIMER OU MODIFIER -->
 <script>dataLayer1 = [];</script>
 <!-- End Google Tag Manager -->
@@ -39,10 +40,11 @@
 <li class="wb-slc">
 <a class="wb-sl" href="#wb-cont">Skip to main content</a>
 </li>
-<li class="wb-slc">
-<a class="wb-sl" href="#wb-info">Skip to "About government"</a>
+<li class="wb-slc visible-sm visible-md visible-lg">
+<a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
 </li>
-</ul><header role="banner">
+</ul>
+<header role="banner">
 <div id="wb-bnr" class="container">
 <section id="wb-lng" class="visible-md visible-lg text-right">
 <h2 class="wb-inv">Language selection</h2>
@@ -56,7 +58,7 @@
 </section>
 <div class="row">
 <div class="brand col-xs-8 col-sm-9 col-md-6">
-<a href="https://www.canada.ca/en.html"><object type="image/svg+xml" tabindex="-1" data="../../GCWeb/assets/sig-blk-en.svg"></object><span class="wb-inv"> Government of Canada / <span lang="fr">Gouvernement du Canada</span></span></a>
+<a href="http://www.canada.ca/en/index.html"><object type="image/svg+xml" tabindex="-1" data="../../assets/sig-blk-en.svg"></object><span class="wb-inv"> Government of Canada</span></a>
 </div>
 <section class="wb-mb-links col-xs-4 col-sm-3 visible-sm visible-xs" id="wb-glb-mn">
 <h2>Search and menus</h2>
@@ -66,7 +68,7 @@
 <div id="mb-pnl"></div>
 </section>
 <section id="wb-srch" class="col-xs-6 text-right visible-md visible-lg">
-<h2>Search</h2>
+<h2 class="wb-inv">Search</h2>
 <form action="#" method="post" name="cse-search-box" role="search" class="form-inline">
 <div class="form-group">
 <label for="wb-srch-q" class="wb-inv">Search website</label>
@@ -79,37 +81,35 @@
 <div class="form-group submit">
 <button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
 </div>
-</form>
-</section>
+</form> </section>
 </div>
 </div>
-<nav role="navigation" id="wb-sm" data-ajax-replace="../../ajax/sitemenu-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+<nav role="navigation" id="wb-sm" class="wb-menu visible-md visible-lg" data-trgt="mb-pnl" data-ajax-fetch="../../ajax/sitemenu-en.html" typeof="SiteNavigationElement">
+<h2 class="wb-inv">Topics menu</h2>
 <div class="container nvbar">
-<h2>Topics menu</h2>
 <div class="row">
 <ul class="list-inline menu">
-<li><a href="https://www.canada.ca/en/services/jobs.html">Jobs</a></li>
-<li><a href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration</a></li>
-<li><a href="https://travel.gc.ca/">Travel</a></li>
-<li><a href="https://www.canada.ca/en/services/business.html">Business</a></li>
-<li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
-<li><a href="https://www.canada.ca/en/services/health.html">Health</a></li>
-<li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
-<li><a href="https://www.canada.ca/en/services.html">More services</a></li>
+<li><a href="http://www.esdc.gc.ca/en/jobs/index.page">Jobs</a></li>
+<li><a href="http://www.cic.gc.ca/english/index.asp">Immigration</a></li>
+<li><a href="http://travel.gc.ca">Travel</a></li>
+<li><a href="http://www.canada.ca/en/services/business/index.html">Business</a></li>
+<li><a href="http://www.canada.ca/en/services/benefits/index.html">Benefits</a></li>
+<li><a href="http://healthycanadians.gc.ca/index-eng.php">Health</a></li>
+<li><a href="http://www.canada.ca/en/services/taxes/index.html">Taxes</a></li>
+<li><a href="http://www.canada.ca/en/services/index.html">More services</a></li>
 </ul>
 </div>
-</div>
-</nav>
-<nav role="navigation" id="wb-bc" property="breadcrumb">
-<h2>You are here:</h2>
+</div> </nav>
+<nav role="navigation" id="wb-bc" class="" property="breadcrumb">
+<h2 class="wb-inv">You are here:</h2>
 <div class="container">
 <div class="row">
 <ol class="breadcrumb">
 <li>
-<a href="http://wet-boew.github.io/wet-boew/index-en.html">Home</a>
+<a href="/index-en.html">Home</a>
 </li>
 <li>
-<a href="http://wet-boew.github.io/wet-boew/docs/versions/index-en.html">Version history</a>
+<a href="/docs/versions/index-en.html">Version history</a>
 </li>
 <li>Downloads</li>
 </ol>
@@ -120,7 +120,7 @@
 <main role="main" property="mainContentOfPage" class="container">
 <h1 property="name" id="wb-cont">Downloads</h1>
 <p>See <a href="version-info-en.html">Versioning</a> for the meaning of each version number.</p>
-<nav role="navigation">
+<section>
 <h2>Table of contents</h2>
 <ul>
 <li>Version 4.0
@@ -141,641 +141,11 @@
 </ul>
 </li>
 </ul>
-</nav>
+</section>
 <section>
 <h2 id="v40">Version 4.0</h2>
 <section>
 <h3 id="v40stable">Stable releases</h3>
-<section>
-<h4 id="v4027">v4.0.27</h4>
-<p><a href="v4.0/v4.0.27-en.html">Release notes<span class="wb-inv"> - v4.0.27</span></a></p>
-<table class="table table-bordered mrgn-bttm-xl">
-<thead>
-<tr>
-<th scope="col">Theme</th>
-<th scope="col">Source code</th>
-<th scope="col">Production files</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Web Experience Toolkit (WET)</td>
-<td><a href="https://github.com/wet-boew/wet-boew/archive/v4.0.27.zip">Download<span class="wb-inv"> - v4.0.27 source code - Web Experience Toolkit (WET) theme</span></a></td>
-<td><a href="https://github.com/wet-boew/wet-boew/releases/download/v4.0.27/wet-boew-dist-4.0.27.zip">Download<span class="wb-inv"> - v4.0.27 production files - Web Experience Toolkit (WET) theme</span></a></td>
-</tr>
-<tr>
-<td>Base</td>
-<td><a href="https://github.com/wet-boew/theme-base/archive/v4.0.27.zip">Download<span class="wb-inv"> - v4.0.27 source code- Base theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-base/releases/download/v4.0.27/themes-dist-4.0.27-theme-base.zip">Download<span class="wb-inv"> - v4.0.27 production files - Base theme</span></a></td>
-</tr>
-<tr>
-<td>Canada.ca</td>
-<td><a href="https://github.com/wet-boew/GCWeb/archive/v4.0.27.zip">Download<span class="wb-inv"> - v4.0.27 source code - Canada.ca theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/GCWeb/releases/download/v4.0.27/themes-dist-4.0.27-gcweb.zip">Download<span class="wb-inv"> - v4.0.27 production files - Canada.ca theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Web Usability</td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/archive/v4.0.27.zip">Download<span class="wb-inv"> - v4.0.27 source code - Government of Canada Web Usability theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/releases/download/v4.0.27/themes-dist-4.0.27-theme-gcwu-fegc.zip">Download<span class="wb-inv"> - v4.0.27 production files - Government of Canada Web Usability theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Intranet</td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/archive/v4.0.27.zip">Download<span class="wb-inv"> - v4.0.27 source code - Government of Canada Intranet theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/releases/download/v4.0.27/themes-dist-4.0.27-theme-gc-intranet.zip">Download<span class="wb-inv"> - v4.0.27 production files - Government of Canada Intranet theme</span></a></td>
-</tr>
-<tr>
-<td>Open Government Platform (OGPL)</td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/archive/v4.0.27.zip">Download<span class="wb-inv"> - v4.0.27 source code - Open Government Platform (OGPL) theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/releases/download/v4.0.27/themes-dist-4.0.27-theme-ogpl.zip">Download<span class="wb-inv"> - v4.0.27 production files - Open Government Platform (OGPL) theme</span></a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section>
-<h4 id="v4026">v4.0.26</h4>
-<p><a href="v4.0/v4.0.26-en.html">Release notes<span class="wb-inv"> - v4.0.26</span></a></p>
-<table class="table table-bordered mrgn-bttm-xl">
-<thead>
-<tr>
-<th scope="col">Theme</th>
-<th scope="col">Source code</th>
-<th scope="col">Production files</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Web Experience Toolkit (WET)</td>
-<td><a href="https://github.com/wet-boew/wet-boew/archive/v4.0.26.zip">Download<span class="wb-inv"> - v4.0.26 source code - Web Experience Toolkit (WET) theme</span></a></td>
-<td><a href="https://github.com/wet-boew/wet-boew/releases/download/v4.0.26/wet-boew-dist-4.0.26.zip">Download<span class="wb-inv"> - v4.0.26 production files - Web Experience Toolkit (WET) theme</span></a></td>
-</tr>
-<tr>
-<td>Base</td>
-<td><a href="https://github.com/wet-boew/theme-base/archive/v4.0.26.zip">Download<span class="wb-inv"> - v4.0.26 source code- Base theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-base/releases/download/v4.0.26/themes-dist-4.0.26-theme-base.zip">Download<span class="wb-inv"> - v4.0.26 production files - Base theme</span></a></td>
-</tr>
-<tr>
-<td>Canada.ca</td>
-<td><a href="https://github.com/wet-boew/GCWeb/archive/v4.0.26.zip">Download<span class="wb-inv"> - v4.0.26 source code - Canada.ca theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/GCWeb/releases/download/v4.0.26/themes-dist-4.0.26-gcweb.zip">Download<span class="wb-inv"> - v4.0.26 production files - Canada.ca theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Web Usability</td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/archive/v4.0.26.zip">Download<span class="wb-inv"> - v4.0.26 source code - Government of Canada Web Usability theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/releases/download/v4.0.26/themes-dist-4.0.26-theme-gcwu-fegc.zip">Download<span class="wb-inv"> - v4.0.26 production files - Government of Canada Web Usability theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Intranet</td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/archive/v4.0.26.zip">Download<span class="wb-inv"> - v4.0.26 source code - Government of Canada Intranet theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/releases/download/v4.0.26/themes-dist-4.0.26-theme-gc-intranet.zip">Download<span class="wb-inv"> - v4.0.26 production files - Government of Canada Intranet theme</span></a></td>
-</tr>
-<tr>
-<td>Open Government Platform (OGPL)</td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/archive/v4.0.26.zip">Download<span class="wb-inv"> - v4.0.26 source code - Open Government Platform (OGPL) theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/releases/download/v4.0.26/themes-dist-4.0.26-theme-ogpl.zip">Download<span class="wb-inv"> - v4.0.26 production files - Open Government Platform (OGPL) theme</span></a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section>
-<h4 id="v4025">v4.0.25</h4>
-<p><a href="v4.0/v4.0.25-en.html">Release notes<span class="wb-inv"> - v4.0.25</span></a></p>
-<table class="table table-bordered mrgn-bttm-xl">
-<thead>
-<tr>
-<th scope="col">Theme</th>
-<th scope="col">Source code</th>
-<th scope="col">Production files</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Web Experience Toolkit (WET)</td>
-<td><a href="https://github.com/wet-boew/wet-boew/archive/v4.0.25.zip">Download<span class="wb-inv"> - v4.0.25 source code - Web Experience Toolkit (WET) theme</span></a></td>
-<td><a href="https://github.com/wet-boew/wet-boew/releases/download/v4.0.25/wet-boew-dist-4.0.25.zip">Download<span class="wb-inv"> - v4.0.25 production files - Web Experience Toolkit (WET) theme</span></a></td>
-</tr>
-<tr>
-<td>Base</td>
-<td><a href="https://github.com/wet-boew/theme-base/archive/v4.0.25.zip">Download<span class="wb-inv"> - v4.0.25 source code- Base theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-base/releases/download/v4.0.25/themes-dist-4.0.25-theme-base.zip">Download<span class="wb-inv"> - v4.0.25 production files - Base theme</span></a></td>
-</tr>
-<tr>
-<td>Canada.ca</td>
-<td><a href="https://github.com/wet-boew/GCWeb/archive/v4.0.25.zip">Download<span class="wb-inv"> - v4.0.25 source code - Canada.ca theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/GCWeb/releases/download/v4.0.25/themes-dist-4.0.25-gcweb.zip">Download<span class="wb-inv"> - v4.0.25 production files - Canada.ca theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Web Usability</td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/archive/v4.0.25.zip">Download<span class="wb-inv"> - v4.0.25 source code - Government of Canada Web Usability theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/releases/download/v4.0.25/themes-dist-4.0.25-theme-gcwu-fegc.zip">Download<span class="wb-inv"> - v4.0.25 production files - Government of Canada Web Usability theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Intranet</td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/archive/v4.0.25.zip">Download<span class="wb-inv"> - v4.0.25 source code - Government of Canada Intranet theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/releases/download/v4.0.25/themes-dist-4.0.25-theme-gc-intranet.zip">Download<span class="wb-inv"> - v4.0.25 production files - Government of Canada Intranet theme</span></a></td>
-</tr>
-<tr>
-<td>Open Government Platform (OGPL)</td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/archive/v4.0.25.zip">Download<span class="wb-inv"> - v4.0.25 source code - Open Government Platform (OGPL) theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/releases/download/v4.0.25/themes-dist-4.0.25-theme-ogpl.zip">Download<span class="wb-inv"> - v4.0.25 production files - Open Government Platform (OGPL) theme</span></a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section>
-<h4 id="v4024">v4.0.24</h4>
-<p><a href="v4.0/v4.0.24-en.html">Release notes<span class="wb-inv"> - v4.0.24</span></a></p>
-<table class="table table-bordered mrgn-bttm-xl">
-<thead>
-<tr>
-<th scope="col">Theme</th>
-<th scope="col">Source code</th>
-<th scope="col">Production files</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Web Experience Toolkit (WET)</td>
-<td><a href="https://github.com/wet-boew/wet-boew/archive/v4.0.24.zip">Download<span class="wb-inv"> - v4.0.24 source code - Web Experience Toolkit (WET) theme</span></a></td>
-<td><a href="https://github.com/wet-boew/wet-boew/releases/download/v4.0.24/wet-boew-dist-4.0.24.zip">Download<span class="wb-inv"> - v4.0.24 production files - Web Experience Toolkit (WET) theme</span></a></td>
-</tr>
-<tr>
-<td>Base</td>
-<td><a href="https://github.com/wet-boew/theme-base/archive/v4.0.24.zip">Download<span class="wb-inv"> - v4.0.24 source code- Base theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-base/releases/download/v4.0.24/themes-dist-4.0.24-theme-base.zip">Download<span class="wb-inv"> - v4.0.24 production files - Base theme</span></a></td>
-</tr>
-<tr>
-<td>Canada.ca</td>
-<td><a href="https://github.com/wet-boew/GCWeb/archive/v4.0.24.zip">Download<span class="wb-inv"> - v4.0.24 source code - Canada.ca theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/GCWeb/releases/download/v4.0.24/themes-dist-4.0.24-gcweb.zip">Download<span class="wb-inv"> - v4.0.24 production files - Canada.ca theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Web Usability</td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/archive/v4.0.24.zip">Download<span class="wb-inv"> - v4.0.24 source code - Government of Canada Web Usability theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/releases/download/v4.0.24/themes-dist-4.0.24-theme-gcwu-fegc.zip">Download<span class="wb-inv"> - v4.0.24 production files - Government of Canada Web Usability theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Intranet</td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/archive/v4.0.24.zip">Download<span class="wb-inv"> - v4.0.24 source code - Government of Canada Intranet theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/releases/download/v4.0.24/themes-dist-4.0.24-theme-gc-intranet.zip">Download<span class="wb-inv"> - v4.0.24 production files - Government of Canada Intranet theme</span></a></td>
-</tr>
-<tr>
-<td>Open Government Platform (OGPL)</td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/archive/v4.0.24.zip">Download<span class="wb-inv"> - v4.0.24 source code - Open Government Platform (OGPL) theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/releases/download/v4.0.24/themes-dist-4.0.24-theme-ogpl.zip">Download<span class="wb-inv"> - v4.0.24 production files - Open Government Platform (OGPL) theme</span></a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section>
-<h4 id="v4023">v4.0.23</h4>
-<p><a href="v4.0/v4.0.23-en.html">Release notes<span class="wb-inv"> - v4.0.23</span></a></p>
-<table class="table table-bordered mrgn-bttm-xl">
-<thead>
-<tr>
-<th scope="col">Theme</th>
-<th scope="col">Source code</th>
-<th scope="col">Production files</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Web Experience Toolkit (WET)</td>
-<td><a href="https://github.com/wet-boew/wet-boew/archive/v4.0.23.zip">Download<span class="wb-inv"> - v4.0.23 source code - Web Experience Toolkit (WET) theme</span></a></td>
-<td><a href="https://github.com/wet-boew/wet-boew/releases/download/v4.0.23/wet-boew-dist-4.0.23.zip">Download<span class="wb-inv"> - v4.0.23 production files - Web Experience Toolkit (WET) theme</span></a></td>
-</tr>
-<tr>
-<td>Base</td>
-<td><a href="https://github.com/wet-boew/theme-base/archive/v4.0.23.zip">Download<span class="wb-inv"> - v4.0.23 source code- Base theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-base/releases/download/v4.0.23/themes-dist-4.0.23-theme-base.zip">Download<span class="wb-inv"> - v4.0.23 production files - Base theme</span></a></td>
-</tr>
-<tr>
-<td>Canada.ca</td>
-<td><a href="https://github.com/wet-boew/GCWeb/archive/v4.0.23.zip">Download<span class="wb-inv"> - v4.0.23 source code - Canada.ca theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/GCWeb/releases/download/v4.0.23/themes-dist-4.0.23-gcweb.zip">Download<span class="wb-inv"> - v4.0.23 production files - Canada.ca theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Web Usability</td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/archive/v4.0.23.zip">Download<span class="wb-inv"> - v4.0.23 source code - Government of Canada Web Usability theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/releases/download/v4.0.23/themes-dist-4.0.23-theme-gcwu-fegc.zip">Download<span class="wb-inv"> - v4.0.23 production files - Government of Canada Web Usability theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Intranet</td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/archive/v4.0.23.zip">Download<span class="wb-inv"> - v4.0.23 source code - Government of Canada Intranet theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/releases/download/v4.0.23/themes-dist-4.0.23-theme-gc-intranet.zip">Download<span class="wb-inv"> - v4.0.23 production files - Government of Canada Intranet theme</span></a></td>
-</tr>
-<tr>
-<td>Open Government Platform (OGPL)</td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/archive/v4.0.23.zip">Download<span class="wb-inv"> - v4.0.23 source code - Open Government Platform (OGPL) theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/releases/download/v4.0.23/themes-dist-4.0.23-theme-ogpl.zip">Download<span class="wb-inv"> - v4.0.23 production files - Open Government Platform (OGPL) theme</span></a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section>
-<h4 id="v4022">v4.0.22</h4>
-<p><a href="v4.0/v4.0.22-en.html">Release notes<span class="wb-inv"> - v4.0.22</span></a></p>
-<table class="table table-bordered mrgn-bttm-xl">
-<thead>
-<tr>
-<th scope="col">Theme</th>
-<th scope="col">Source code</th>
-<th scope="col">Production files</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Web Experience Toolkit (WET)</td>
-<td><a href="https://github.com/wet-boew/wet-boew/archive/v4.0.22.zip">Download<span class="wb-inv"> - v4.0.22 source code - Web Experience Toolkit (WET) theme</span></a></td>
-<td><a href="https://github.com/wet-boew/wet-boew/releases/download/v4.0.22/wet-boew-dist-4.0.22.zip">Download<span class="wb-inv"> - v4.0.22 production files - Web Experience Toolkit (WET) theme</span></a></td>
-</tr>
-<tr>
-<td>Base</td>
-<td><a href="https://github.com/wet-boew/theme-base/archive/v4.0.22.zip">Download<span class="wb-inv"> - v4.0.22 source code- Base theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-base/releases/download/v4.0.22/themes-dist-4.0.22-theme-base.zip">Download<span class="wb-inv"> - v4.0.22 production files - Base theme</span></a></td>
-</tr>
-<tr>
-<td>Canada.ca</td>
-<td><a href="https://github.com/wet-boew/GCWeb/archive/v4.0.22.zip">Download<span class="wb-inv"> - v4.0.22 source code - Canada.ca theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/GCWeb/releases/download/v4.0.22/themes-dist-4.0.22-gcweb.zip">Download<span class="wb-inv"> - v4.0.22 production files - Canada.ca theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Web Usability</td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/archive/v4.0.22.zip">Download<span class="wb-inv"> - v4.0.22 source code - Government of Canada Web Usability theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/releases/download/v4.0.22/themes-dist-4.0.22-theme-gcwu-fegc.zip">Download<span class="wb-inv"> - v4.0.22 production files - Government of Canada Web Usability theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Intranet</td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/archive/v4.0.22.zip">Download<span class="wb-inv"> - v4.0.22 source code - Government of Canada Intranet theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/releases/download/v4.0.22/themes-dist-4.0.22-theme-gc-intranet.zip">Download<span class="wb-inv"> - v4.0.22 production files - Government of Canada Intranet theme</span></a></td>
-</tr>
-<tr>
-<td>Open Government Platform (OGPL)</td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/archive/v4.0.22.zip">Download<span class="wb-inv"> - v4.0.22 source code - Open Government Platform (OGPL) theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/releases/download/v4.0.22/themes-dist-4.0.22-theme-ogpl.zip">Download<span class="wb-inv"> - v4.0.22 production files - Open Government Platform (OGPL) theme</span></a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section>
-<h4 id="v4021">v4.0.21</h4>
-<p><a href="v4.0/v4.0.21-en.html">Release notes<span class="wb-inv"> - v4.0.21</span></a></p>
-<table class="table table-bordered mrgn-bttm-xl">
-<thead>
-<tr>
-<th scope="col">Theme</th>
-<th scope="col">Source code</th>
-<th scope="col">Production files</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Web Experience Toolkit (WET)</td>
-<td><a href="https://github.com/wet-boew/wet-boew/archive/v4.0.21.zip">Download<span class="wb-inv"> - v4.0.21 source code - Web Experience Toolkit (WET) theme</span></a></td>
-<td><a href="https://github.com/wet-boew/wet-boew/releases/download/v4.0.21/wet-boew-dist-4.0.21.zip">Download<span class="wb-inv"> - v4.0.21 production files - Web Experience Toolkit (WET) theme</span></a></td>
-</tr>
-<tr>
-<td>Base</td>
-<td><a href="https://github.com/wet-boew/theme-base/archive/v4.0.21.zip">Download<span class="wb-inv"> - v4.0.21 source code- Base theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-base/releases/download/v4.0.21/themes-dist-4.0.21-theme-base.zip">Download<span class="wb-inv"> - v4.0.21 production files - Base theme</span></a></td>
-</tr>
-<tr>
-<td>Canada.ca</td>
-<td><a href="https://github.com/wet-boew/GCWeb/archive/v4.0.21.zip">Download<span class="wb-inv"> - v4.0.21 source code - Canada.ca theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/GCWeb/releases/download/v4.0.21/themes-dist-4.0.21-gcweb.zip">Download<span class="wb-inv"> - v4.0.21 production files - Canada.ca theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Web Usability</td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/archive/v4.0.21.zip">Download<span class="wb-inv"> - v4.0.21 source code - Government of Canada Web Usability theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/releases/download/v4.0.21/themes-dist-4.0.21-theme-gcwu-fegc.zip">Download<span class="wb-inv"> - v4.0.21 production files - Government of Canada Web Usability theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Intranet</td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/archive/v4.0.21.zip">Download<span class="wb-inv"> - v4.0.21 source code - Government of Canada Intranet theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/releases/download/v4.0.21/themes-dist-4.0.21-theme-gc-intranet.zip">Download<span class="wb-inv"> - v4.0.21 production files - Government of Canada Intranet theme</span></a></td>
-</tr>
-<tr>
-<td>Open Government Platform (OGPL)</td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/archive/v4.0.21.zip">Download<span class="wb-inv"> - v4.0.21 source code - Open Government Platform (OGPL) theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/releases/download/v4.0.21/themes-dist-4.0.21-theme-ogpl.zip">Download<span class="wb-inv"> - v4.0.21 production files - Open Government Platform (OGPL) theme</span></a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section>
-<h4 id="v4020">v4.0.20</h4>
-<p><a href="v4.0/v4.0.20-en.html">Release notes<span class="wb-inv"> - v4.0.20</span></a></p>
-<table class="table table-bordered mrgn-bttm-xl">
-<thead>
-<tr>
-<th scope="col">Theme</th>
-<th scope="col">Source code</th>
-<th scope="col">Production files</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Web Experience Toolkit (WET)</td>
-<td><a href="https://github.com/wet-boew/wet-boew/archive/v4.0.20.zip">Download<span class="wb-inv"> - v4.0.20 source code - Web Experience Toolkit (WET) theme</span></a></td>
-<td><a href="https://github.com/wet-boew/wet-boew/releases/download/v4.0.20/wet-boew-dist-4.0.20.zip">Download<span class="wb-inv"> - v4.0.20 production files - Web Experience Toolkit (WET) theme</span></a></td>
-</tr>
-<tr>
-<td>Base</td>
-<td><a href="https://github.com/wet-boew/theme-base/archive/v4.0.20.zip">Download<span class="wb-inv"> - v4.0.20 source code- Base theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-base/releases/download/v4.0.20/themes-dist-4.0.20-theme-base.zip">Download<span class="wb-inv"> - v4.0.20 production files - Base theme</span></a></td>
-</tr>
-<tr>
-<td>Canada.ca</td>
-<td><a href="https://github.com/wet-boew/GCWeb/archive/v4.0.20.zip">Download<span class="wb-inv"> - v4.0.20 source code - Canada.ca theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/GCWeb/releases/download/v4.0.20/themes-dist-4.0.20-gcweb.zip">Download<span class="wb-inv"> - v4.0.20 production files - Canada.ca theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Web Usability</td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/archive/v4.0.20.zip">Download<span class="wb-inv"> - v4.0.20 source code - Government of Canada Web Usability theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/releases/download/v4.0.20/themes-dist-4.0.20-theme-gcwu-fegc.zip">Download<span class="wb-inv"> - v4.0.20 production files - Government of Canada Web Usability theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Intranet</td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/archive/v4.0.20.zip">Download<span class="wb-inv"> - v4.0.20 source code - Government of Canada Intranet theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/releases/download/v4.0.20/themes-dist-4.0.20-theme-gc-intranet.zip">Download<span class="wb-inv"> - v4.0.20 production files - Government of Canada Intranet theme</span></a></td>
-</tr>
-<tr>
-<td>Open Government Platform (OGPL)</td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/archive/v4.0.20.zip">Download<span class="wb-inv"> - v4.0.20 source code - Open Government Platform (OGPL) theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/releases/download/v4.0.20/themes-dist-4.0.20-theme-ogpl.zip">Download<span class="wb-inv"> - v4.0.20 production files - Open Government Platform (OGPL) theme</span></a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section>
-<h4 id="v4019">v4.0.19</h4>
-<p><a href="v4.0/v4.0.19-en.html">Release notes<span class="wb-inv"> - v4.0.19</span></a></p>
-<table class="table table-bordered mrgn-bttm-xl">
-<thead>
-<tr>
-<th scope="col">Theme</th>
-<th scope="col">Source code</th>
-<th scope="col">Production files</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Web Experience Toolkit (WET)</td>
-<td><a href="https://github.com/wet-boew/wet-boew/archive/v4.0.19+2.zip">Download<span class="wb-inv"> - v4.0.19 source code - Web Experience Toolkit (WET) theme</span></a></td>
-<td><a href="https://github.com/wet-boew/wet-boew/releases/download/v4.0.19+2/wet-boew-dist-4.0.19-2.zip">Download<span class="wb-inv"> - v4.0.19 production files - Web Experience Toolkit (WET) theme</span></a></td>
-</tr>
-<tr>
-<td>Base</td>
-<td><a href="https://github.com/wet-boew/theme-base/archive/v4.0.19+2.zip">Download<span class="wb-inv"> - v4.0.19 source code- Base theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-base/releases/download/v4.0.19+2/themes-dist-4.0.19-2-theme-base.zip">Download<span class="wb-inv"> - v4.0.19 production files - Base theme</span></a></td>
-</tr>
-<tr>
-<td>Canada.ca</td>
-<td><a href="https://github.com/wet-boew/GCWeb/archive/v4.0.19+2.zip">Download<span class="wb-inv"> - v4.0.19 source code - Canada.ca theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/GCWeb/releases/download/v4.0.19+2/themes-dist-4.0.19-2-gcweb.zip">Download<span class="wb-inv"> - v4.0.19 production files - Canada.ca theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Web Usability</td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/archive/v4.0.19+2.zip">Download<span class="wb-inv"> - v4.0.19 source code - Government of Canada Web Usability theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/releases/download/v4.0.19+2/themes-dist-4.0.19-2-theme-gcwu-fegc.zip">Download<span class="wb-inv"> - v4.0.19 production files - Government of Canada Web Usability theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Intranet</td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/archive/v4.0.19+2.zip">Download<span class="wb-inv"> - v4.0.19 source code - Government of Canada Intranet theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/releases/download/v4.0.19+2/themes-dist-4.0.19-2-theme-gc-intranet.zip">Download<span class="wb-inv"> - v4.0.19 production files - Government of Canada Intranet theme</span></a></td>
-</tr>
-<tr>
-<td>Open Government Platform (OGPL)</td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/archive/v4.0.19+2.zip">Download<span class="wb-inv"> - v4.0.19 source code - Open Government Platform (OGPL) theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/releases/download/v4.0.19+2/themes-dist-4.0.19-2-theme-ogpl.zip">Download<span class="wb-inv"> - v4.0.19 production files - Open Government Platform (OGPL) theme</span></a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section>
-<h4 id="v4018">v4.0.18</h4>
-<p><a href="v4.0/v4.0.18-en.html">Release notes<span class="wb-inv"> - v4.0.18</span></a></p>
-<table class="table table-bordered mrgn-bttm-xl">
-<thead>
-<tr>
-<th scope="col">Theme</th>
-<th scope="col">Source code</th>
-<th scope="col">Production files</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Web Experience Toolkit (WET)</td>
-<td><a href="https://github.com/wet-boew/wet-boew/archive/v4.0.18.zip">Download<span class="wb-inv"> - v4.0.18 source code - Web Experience Toolkit (WET) theme</span></a></td>
-<td><a href="https://github.com/wet-boew/wet-boew/releases/download/v4.0.18/wet-boew-dist-4.0.18.zip">Download<span class="wb-inv"> - v4.0.18 production files - Web Experience Toolkit (WET) theme</span></a></td>
-</tr>
-<tr>
-<td>Base</td>
-<td><a href="https://github.com/wet-boew/theme-base/archive/v4.0.18.zip">Download<span class="wb-inv"> - v4.0.18 source code- Base theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-base/releases/download/v4.0.18/themes-dist-4.0.18-theme-base.zip">Download<span class="wb-inv"> - v4.0.18 production files - Base theme</span></a></td>
-</tr>
-<tr>
-<td>Canada.ca</td>
-<td><a href="https://github.com/wet-boew/GCWeb/archive/v4.0.18.zip">Download<span class="wb-inv"> - v4.0.18 source code - Canada.ca theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/GCWeb/releases/download/v4.0.18/themes-dist-4.0.18-gcweb.zip">Download<span class="wb-inv"> - v4.0.18 production files - Canada.ca theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Web Usability</td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/archive/v4.0.18.zip">Download<span class="wb-inv"> - v4.0.18 source code - Government of Canada Web Usability theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/releases/download/v4.0.18/themes-dist-4.0.18-theme-gcwu-fegc.zip">Download<span class="wb-inv"> - v4.0.18 production files - Government of Canada Web Usability theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Intranet</td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/archive/v4.0.18.zip">Download<span class="wb-inv"> - v4.0.18 source code - Government of Canada Intranet theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/releases/download/v4.0.18/themes-dist-4.0.18-theme-gc-intranet.zip">Download<span class="wb-inv"> - v4.0.18 production files - Government of Canada Intranet theme</span></a></td>
-</tr>
-<tr>
-<td>Open Government Platform (OGPL)</td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/archive/v4.0.18.zip">Download<span class="wb-inv"> - v4.0.18 source code - Open Government Platform (OGPL) theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/releases/download/v4.0.18/themes-dist-4.0.18-theme-ogpl.zip">Download<span class="wb-inv"> - v4.0.18 production files - Open Government Platform (OGPL) theme</span></a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section>
-<h4 id="v4017">v4.0.17</h4>
-<p><a href="v4.0/v4.0.17-en.html">Release notes<span class="wb-inv"> - v4.0.17</span></a></p>
-<table class="table table-bordered mrgn-bttm-xl">
-<thead>
-<tr>
-<th scope="col">Theme</th>
-<th scope="col">Source code</th>
-<th scope="col">Production files</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Web Experience Toolkit (WET)</td>
-<td><a href="https://github.com/wet-boew/wet-boew/archive/v4.0.17.zip">Download<span class="wb-inv"> - v4.0.17 source code - Web Experience Toolkit (WET) theme</span></a></td>
-<td><a href="https://github.com/wet-boew/wet-boew/releases/download/v4.0.17/wet-boew-dist-4.0.17.zip">Download<span class="wb-inv"> - v4.0.17 production files - Web Experience Toolkit (WET) theme</span></a></td>
-</tr>
-<tr>
-<td>Base</td>
-<td><a href="https://github.com/wet-boew/theme-base/archive/v4.0.17+1.zip">Download<span class="wb-inv"> - v4.0.17 source code- Base theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-base/releases/download/v4.0.17+1/themes-dist-4.0.17-1-theme-base.zip">Download<span class="wb-inv"> - v4.0.17 production files - Base theme</span></a></td>
-</tr>
-<tr>
-<td>Canada.ca</td>
-<td><a href="https://github.com/wet-boew/GCWeb/archive/v4.0.17.zip">Download<span class="wb-inv"> - v4.0.17 source code - Canada.ca theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/GCWeb/releases/download/v4.0.17/themes-dist-4.0.17-gcweb.zip">Download<span class="wb-inv"> - v4.0.17 production files - Canada.ca theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Web Usability</td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/archive/v4.0.17+1.zip">Download<span class="wb-inv"> - v4.0.17 source code - Government of Canada Web Usability theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/releases/download/v4.0.17+1/themes-dist-4.0.17-1-theme-gcwu-fegc.zip">Download<span class="wb-inv"> - v4.0.17 production files - Government of Canada Web Usability theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Intranet</td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/archive/v4.0.17+1.zip">Download<span class="wb-inv"> - v4.0.17 source code - Government of Canada Intranet theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/releases/download/v4.0.17+1/themes-dist-4.0.17-1-theme-gc-intranet.zip">Download<span class="wb-inv"> - v4.0.17 production files - Government of Canada Intranet theme</span></a></td>
-</tr>
-<tr>
-<td>Open Government Platform (OGPL)</td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/archive/v4.0.17+1.zip">Download<span class="wb-inv"> - v4.0.17 source code - Open Government Platform (OGPL) theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/releases/download/v4.0.17+1/themes-dist-4.0.17-1-theme-ogpl.zip">Download<span class="wb-inv"> - v4.0.17 production files - Open Government Platform (OGPL) theme</span></a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section>
-<h4 id="v4016">v4.0.16</h4>
-<p><a href="v4.0/v4.0.16-en.html">Release notes<span class="wb-inv"> - v4.0.16</span></a></p>
-<table class="table table-bordered mrgn-bttm-xl">
-<thead>
-<tr>
-<th scope="col">Theme</th>
-<th scope="col">Source code</th>
-<th scope="col">Production files</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Web Experience Toolkit (WET)</td>
-<td><a href="https://github.com/wet-boew/wet-boew/archive/v4.0.16.zip">Download<span class="wb-inv"> - v4.0.16 source code - Web Experience Toolkit (WET) theme</span></a></td>
-<td><a href="https://github.com/wet-boew/wet-boew/releases/download/v4.0.16/wet-boew-dist-4.0.16.zip">Download<span class="wb-inv"> - v4.0.16 production files - Web Experience Toolkit (WET) theme</span></a></td>
-</tr>
-<tr>
-<td>Base</td>
-<td><a href="https://github.com/wet-boew/theme-base/archive/v4.0.16.zip">Download<span class="wb-inv"> - v4.0.16 source code- Base theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-base/releases/download/v4.0.16/themes-dist-4.0.16-theme-base.zip">Download<span class="wb-inv"> - v4.0.16 production files - Base theme</span></a></td>
-</tr>
-<tr>
-<td>Canada.ca</td>
-<td><a href="https://github.com/wet-boew/GCWeb/archive/v4.0.16.zip">Download<span class="wb-inv"> - v4.0.16 source code - Canada.ca theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/GCWeb/releases/download/v4.0.16/themes-dist-4.0.16-gcweb.zip">Download<span class="wb-inv"> - v4.0.16 production files - Canada.ca theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Web Usability</td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/archive/v4.0.16.zip">Download<span class="wb-inv"> - v4.0.16 source code - Government of Canada Web Usability theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/releases/download/v4.0.16/themes-dist-4.0.16-theme-gcwu-fegc.zip">Download<span class="wb-inv"> - v4.0.16 production files - Government of Canada Web Usability theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Intranet</td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/archive/v4.0.16.zip">Download<span class="wb-inv"> - v4.0.16 source code - Government of Canada Intranet theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/releases/download/v4.0.16/themes-dist-4.0.16-theme-gc-intranet.zip">Download<span class="wb-inv"> - v4.0.16 production files - Government of Canada Intranet theme</span></a></td>
-</tr>
-<tr>
-<td>Open Government Platform (OGPL)</td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/archive/v4.0.16.zip">Download<span class="wb-inv"> - v4.0.16 source code - Open Government Platform (OGPL) theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/releases/download/v4.0.16/themes-dist-4.0.16-theme-ogpl.zip">Download<span class="wb-inv"> - v4.0.16 production files - Open Government Platform (OGPL) theme</span></a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section>
-<h4 id="v4015">v4.0.15</h4>
-<p><a href="v4.0/v4.0.15-en.html">Release notes<span class="wb-inv"> - v4.0.15</span></a></p>
-<table class="table table-bordered mrgn-bttm-xl">
-<thead>
-<tr>
-<th scope="col">Theme</th>
-<th scope="col">Source code</th>
-<th scope="col">Production files</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Web Experience Toolkit (WET)</td>
-<td><a href="https://github.com/wet-boew/wet-boew/archive/v4.0.15.zip">Download<span class="wb-inv"> - v4.0.15 source code - Web Experience Toolkit (WET) theme</span></a></td>
-<td><a href="https://github.com/wet-boew/wet-boew/releases/download/v4.0.15/wet-boew-dist-4.0.15.zip">Download<span class="wb-inv"> - v4.0.15 production files - Web Experience Toolkit (WET) theme</span></a></td>
-</tr>
-<tr>
-<td>Base</td>
-<td><a href="https://github.com/wet-boew/theme-base/archive/v4.0.15.zip">Download<span class="wb-inv"> - v4.0.15 source code- Base theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-base/releases/download/v4.0.15/themes-dist-4.0.15-theme-base.zip">Download<span class="wb-inv"> - v4.0.15 production files - Base theme</span></a></td>
-</tr>
-<tr>
-<td>Canada.ca</td>
-<td><a href="https://github.com/wet-boew/GCWeb/archive/v4.0.15.zip">Download<span class="wb-inv"> - v4.0.15 source code - Canada.ca theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/GCWeb/releases/download/v4.0.15/themes-dist-4.0.15-gcweb.zip">Download<span class="wb-inv"> - v4.0.15 production files - Canada.ca theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Web Usability</td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/archive/v4.0.15.zip">Download<span class="wb-inv"> - v4.0.15 source code - Government of Canada Web Usability theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/releases/download/v4.0.15/themes-dist-4.0.15-theme-gcwu-fegc.zip">Download<span class="wb-inv"> - v4.0.15 production files - Government of Canada Web Usability theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Intranet</td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/archive/v4.0.15.zip">Download<span class="wb-inv"> - v4.0.15 source code - Government of Canada Intranet theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/releases/download/v4.0.15/themes-dist-4.0.15-theme-gc-intranet.zip">Download<span class="wb-inv"> - v4.0.15 production files - Government of Canada Intranet theme</span></a></td>
-</tr>
-<tr>
-<td>Open Government Platform (OGPL)</td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/archive/v4.0.15.zip">Download<span class="wb-inv"> - v4.0.15 source code - Open Government Platform (OGPL) theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/releases/download/v4.0.15/themes-dist-4.0.15-theme-ogpl.zip">Download<span class="wb-inv"> - v4.0.15 production files - Open Government Platform (OGPL) theme</span></a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section>
-<h4 id="v4014">v4.0.14</h4>
-<p><a href="v4.0/v4.0.14-en.html">Release notes<span class="wb-inv"> - v4.0.14</span></a></p>
-<table class="table table-bordered mrgn-bttm-xl">
-<thead>
-<tr>
-<th scope="col">Theme</th>
-<th scope="col">Source code</th>
-<th scope="col">Production files</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Web Experience Toolkit (WET)</td>
-<td><a href="https://github.com/wet-boew/wet-boew/archive/v4.0.14.zip">Download<span class="wb-inv"> - v4.0.14 source code - Web Experience Toolkit (WET) theme</span></a></td>
-<td><a href="https://github.com/wet-boew/wet-boew/releases/download/v4.0.14/wet-boew-dist-4.0.14.zip">Download<span class="wb-inv"> - v4.0.14 production files - Web Experience Toolkit (WET) theme</span></a></td>
-</tr>
-<tr>
-<td>Base</td>
-<td><a href="https://github.com/wet-boew/theme-base/archive/v4.0.14.zip">Download<span class="wb-inv"> - v4.0.12 source code- Base theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-base/releases/download/v4.0.14/themes-dist-4.0.14-theme-base.zip">Download<span class="wb-inv"> - v4.0.14 production files - Base theme</span></a></td>
-</tr>
-<tr>
-<td>Canada.ca</td>
-<td><a href="https://github.com/wet-boew/GCWeb/archive/v4.0.14.zip">Download<span class="wb-inv"> - v4.0.14 source code - Canada.ca theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/GCWeb/releases/download/v4.0.14/themes-dist-4.0.14-gcweb.zip">Download<span class="wb-inv"> - v4.0.14 production files - Canada.ca theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Web Usability</td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/archive/v4.0.14.zip">Download<span class="wb-inv"> - v4.0.14 source code - Government of Canada Web Usability theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gcwu-fegc/releases/download/v4.0.14/themes-dist-4.0.14-theme-gcwu-fegc.zip">Download<span class="wb-inv"> - v4.0.14 production files - Government of Canada Web Usability theme</span></a></td>
-</tr>
-<tr>
-<td>Government of Canada Intranet</td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/archive/v4.0.14.zip">Download<span class="wb-inv"> - v4.0.14 source code - Government of Canada Intranet theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-gc-intranet/releases/download/v4.0.14/themes-dist-4.0.14-theme-gc-intranet.zip">Download<span class="wb-inv"> - v4.0.14 production files - Government of Canada Intranet theme</span></a></td>
-</tr>
-<tr>
-<td>Open Government Platform (OGPL)</td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/archive/v4.0.14.zip">Download<span class="wb-inv"> - v4.0.14 source code - Open Government Platform (OGPL) theme</span> (theme only)</a></td>
-<td><a href="https://github.com/wet-boew/theme-ogpl/releases/download/v4.0.14/themes-dist-4.0.14-theme-ogpl.zip">Download<span class="wb-inv"> - v4.0.14 production files - Open Government Platform (OGPL) theme</span></a></td>
-</tr>
-</tbody>
-</table>
-</section>
 <section>
 <h4 id="v4013">v4.0.13</h4>
 <p><a href="v4.0/v4.0.13-en.html">Release notes<span class="wb-inv"> - v4.0.13</span></a></p>
@@ -1900,15 +1270,15 @@
 </table>
 </section>
 </section>
-<div class="pagedetails">
+<div class="row pagedetails">
+<div class="col-xs-6 datemod">
 <dl id="wb-dtmd">
 <dt>Date modified:&#32;</dt>
-<dd><time property="dateModified">2017-12-14</time></dd>
+<dd><time property="dateModified">2015-04-21</time></dd>
 </dl>
-<div class="row">
-<div class="col-sm-6 col-md-5 col-lg-4">
-<a href="https://www.canada.ca/en/report-problem.html" class="btn btn-default btn-block">Report a problem on this page</a>
 </div>
+<div class="col-xs-6 text-right">
+<a href="http://www.canada.ca/en/contact/feedback.html" class="btn btn-default"><span class="glyphicon glyphicon-comment mrgn-rght-sm"></span>Feedback<span class="wb-inv"> about this web site</span></a>
 </div>
 </div>
 </main>
@@ -1937,52 +1307,90 @@
 <p>Brief description of the initiative, task or information being promoted.</p>
 </section>
 </div>
-</aside>
-<footer role="contentinfo" id="wb-info">
-<nav role="navigation" class="container wb-navcurr">
-<h2 class="wb-inv">About government</h2>
-<ul class="list-unstyled colcount-sm-2 colcount-md-3">
-<li><a href="https://www.canada.ca/en/contact.html">Contact us</a></li>
-<li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
-<li><a href="https://www.canada.ca/en/government/publicservice.html">Public service and military</a></li>
-<li><a href="https://www.canada.ca/en/news.html">News</a></li>
-<li><a href="https://www.canada.ca/en/government/system/laws.html">Treaties, laws and regulations</a></li>
-<li><a href="https://www.canada.ca/en/transparency/reporting.html">Government-wide reporting</a></li>
+</aside><footer role="contentinfo" id="wb-info">
+<nav role="navigation" class="container visible-sm visible-md visible-lg wb-navcurr">
+<h2 class="wb-inv">About this site</h2>
+<div class="row">
+<div class="col-sm-3 col-lg-3">
+<section>
+<h3>Contact information</h3>
+<ul class="list-unstyled">
+<li><a href="#">Link 1</a></li>
+<li><a href="#">Link 2</a></li>
+<li><a href="#">Link 3</a></li>
+</ul>
+</section>
+<section>
+<h3>News</h3>
+<ul class="list-unstyled">
+<li><a href="http://news.gc.ca/web/index-en.do">Newsroom</a></li>
+<li><a href="http://news.gc.ca/web/nwsprdct-en.do?mthd=tp&amp;crtr.tp1D=1">News releases</a></li>
+<li><a href="http://news.gc.ca/web/nwsprdct-en.do?mthd=tp&amp;crtr.tp1D=3">Media advisories</a></li>
+<li><a href="http://news.gc.ca/web/nwsprdct-en.do?mthd=tp&amp;crtr.tp1D=970">Speeches</a></li>
+<li><a href="http://news.gc.ca/web/nwsprdct-en.do?mthd=tp&amp;crtr.tp1D=980">Statements</a></li>
+</ul>
+</section>
+</div>
+<section class="col-sm-3 col-lg-3">
+<h3>Government</h3>
+<ul class="list-unstyled">
+<li><a href="http://www.canada.ca/en/gov/system">How government works</a></li>
+<li><a href="http://www.canada.ca/en/gov/dept">Departments & agencies</a></li>
 <li><a href="http://pm.gc.ca/eng">Prime Minister</a></li>
-<li><a href="https://www.canada.ca/en/government/system.html">How government works</a></li>
-<li><a href="http://open.canada.ca/en/">Open government</a></li>
-</ul> </nav>
+<li><a href="http://www.canada.ca/en/gov/ministers">Ministers</a></li>
+<li><a href="http://www.canada.ca/en/gov/publicservice">Public service & military</a></li>
+<li><a href="http://www.canada.ca/en/gov/policy">Policies, regulations & laws</a></li>
+<li><a href="http://www.canada.ca/en/gov/libraries">Libraries</a></li>
+<li><a href="http://www.canada.ca/en/gov/publications">Publications</a></li>
+<li><a href="http://www.canada.ca/en/gov/statistics">Statistics & data</a></li>
+<li><a href="http://www.canada.ca/en/newsite.html">About Canada.ca</a></li>
+</ul>
+</section>
+<section class="col-sm-3 col-lg-3 brdr-lft">
+<h3>Transparency</h3>
+<ul class="list-unstyled">
+<li><a href="http://www.canada.ca/en/transparency/reporting.html">Government-wide reporting</a></li>
+<li><a href="http://open.canada.ca/en">Open government</a></li>
+<li><a href="http://www.canada.ca/en/transparency/disclosure.html">Proactive disclosure</a></li>
+<li><a href="http://www.canada.ca/en/transparency/terms.html">Terms & conditions</a></li>
+<li><a href="http://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
+</ul>
+</section>
+<div class="col-sm-3 col-lg-3 brdr-lft">
+<section>
+<h3>Feedback</h3>
+<p><a href="http://www.canada.ca/en/contact/feedback.html"><img src="../../assets/feedback.png" alt="Feedback about this Web site"></a></p>
+</section>
+<section>
+<h3>Social media</h3>
+<p><a href="http://www.canada.ca/en/social"><img src="../../assets/social.png" alt="Social media"></a></p>
+</section>
+<section>
+<h3>Mobile centre</h3>
+<p><a href="http://www.canada.ca/en/mobile"><img src="../../assets/mobile.png" alt="Mobile centre"></a></p>
+</section>
+</div>
+</div> </nav>
 <div class="brand">
 <div class="container">
 <div class="row">
-<nav class="col-md-9 col-lg-10 ftr-urlt-lnk">
-<h2 class="wb-inv">About this site</h2>
-<ul>
-<li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
-<li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
-<li><a href="https://www1.canada.ca/en/newsite.html">About Canada.ca</a></li>
-<li><a href="https://www.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
-<li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
-</ul>
-</nav>
 <div class="col-xs-6 visible-sm visible-xs tofpg">
 <a href="#wb-cont">Top of Page <span class="glyphicon glyphicon-chevron-up"></span></a>
 </div>
-<div class="col-xs-6 col-md-3 col-lg-2 text-right">
-<object type="image/svg+xml" tabindex="-1" role="img" data="../../GCWeb/assets/wmms-blk.svg" aria-label="Symbol of the Government of Canada"></object>
+<div class="col-xs-6 col-md-12 text-right">
+<object type="image/svg+xml" tabindex="-1" role="img" data="../../assets/wmms-blk.svg" aria-label="Symbol of the Government of Canada"></object>
 </div>
 </div>
 </div>
 </div>
 </footer>
 <!--[if gte IE 9 | !IE ]><!-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-<script src="../../wet-boew/js/wet-boew.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="../../js/wet-boew.min.js"></script>
 <!--<![endif]-->
 <!--[if lt IE 9]>
-		<script src="../../wet-boew/js/ie8-wet-boew2.min.js"></script>
-		
+		<script src="../../js/ie8-wet-boew2.min.js"></script>
 		<![endif]-->
-<script src="../../GCWeb/js/theme.min.js"></script>
+<script src="../../js/theme.min.js"></script>
 </body>
 </html>

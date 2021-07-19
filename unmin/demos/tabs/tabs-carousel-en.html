@@ -13,27 +13,28 @@
 		<meta name="description" content="Dynamically stacks multiple images and captions into a carousel (or slider) widget." />
 		<!-- Meta data-->
 		<!--[if gte IE 9 | !IE ]><!-->
-		<link href="../../../GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon" />
-		<link rel="stylesheet" href="../../../GCWeb/css/theme.css" />
+		<link href="../../assets/favicon.ico" rel="icon" type="image/x-icon" />
+		<link rel="stylesheet" href="../../css/wet-boew.css" />
 		<!--<![endif]-->
+		<link rel="stylesheet" href="../../css/theme.css" />
+		
 		
 		
 		
 		
 		<!--[if lt IE 9]>
-		<link href="../../../GCWeb/assets/favicon.ico" rel="shortcut icon" />
+		<link href="../../assets/favicon.ico" rel="shortcut icon" />
 		
-		<link rel="stylesheet" href="../../../GCWeb/css/ie8-theme.css" />
+		<link rel="stylesheet" href="../../css/ie8-wet-boew.css" />
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
-		<script src="../../../wet-boew/js/ie8-wet-boew.js"></script>
+		<script src="../../js/ie8-wet-boew.js"></script>
 		<![endif]-->
 		<!--[if lte IE 9]>
 		
 		
 		<![endif]-->
 		
-		<noscript><link rel="stylesheet" href="../../../wet-boew/css/noscript.css" /></noscript>
-		
+		<noscript><link rel="stylesheet" href="../../css/noscript.css" /></noscript>
 		<!-- Google Tag Manager DO NOT REMOVE OR MODIFY - NE PAS SUPPRIMER OU MODIFIER -->
 		<script>dataLayer1 = [];</script>
 		<!-- End Google Tag Manager -->
@@ -48,91 +49,84 @@
 	<li class="wb-slc">
 		<a class="wb-sl" href="#wb-cont">Skip to main content</a>
 	</li>
-	<li class="wb-slc">
-		<a class="wb-sl" href="#wb-info">Skip to "About government"</a>
+	<li class="wb-slc visible-sm visible-md visible-lg">
+		<a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
 	</li>
-</ul><header role="banner">
+</ul>
+<header role="banner">
 	<div id="wb-bnr" class="container">
-	<section id="wb-lng" class="visible-md visible-lg text-right">
-		<h2 class="wb-inv">Language selection</h2>
-		<div class="row">
-			<div class="col-md-12">
-				<ul class="list-inline margin-bottom-none">
-					<li><a lang="fr" href="tabs-carousel-fr.html">Français</a></li>
-				</ul>
+		<section id="wb-lng" class="visible-md visible-lg text-right">
+			<h2 class="wb-inv">Language selection</h2>
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="list-inline margin-bottom-none">
+						<li><a lang="fr" href="tabs-carousel-fr.html">Français</a></li>
+					</ul>
+				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 		<div class="row">
 				<div class="brand col-xs-8 col-sm-9 col-md-6">
-					<a href="https://www.canada.ca/en.html"><object type="image/svg+xml" tabindex="-1" data="../../../GCWeb/assets/sig-blk-en.svg"></object><span class="wb-inv"> Government of Canada / <span lang="fr">Gouvernement du Canada</span></span></a>
+					<a href="http://www.canada.ca/en/index.html"><object type="image/svg+xml" tabindex="-1" data="../../assets/sig-blk-en.svg"></object><span class="wb-inv"> Government of Canada</span></a>
 				</div>
-	<section class="wb-mb-links col-xs-4 col-sm-3 visible-sm visible-xs" id="wb-glb-mn">
-		<h2>Search and menus</h2>
-		<ul class="list-inline text-right chvrn">
-			<li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
-		</ul>
-		<div id="mb-pnl"></div>
-	</section>
-	<section id="wb-srch" class="col-xs-6 text-right visible-md visible-lg">
-		<h2>Search</h2>
-		<form action="#" method="post" name="cse-search-box" role="search" class="form-inline">
-			<div class="form-group">
-				<label for="wb-srch-q" class="wb-inv">Search website</label>
-				<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="27" maxlength="150" placeholder="Search Canada.ca" />
-				<datalist id="wb-srch-q-ac">
-					<!--[if lte IE 9]><select><![endif]-->
-					<!--[if lte IE 9]></select><![endif]-->
-				</datalist>
-			</div>
-			<div class="form-group submit">
-				<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
-			</div>
-		</form>
-	</section>
+			<section class="wb-mb-links col-xs-4 col-sm-3 visible-sm visible-xs" id="wb-glb-mn" >
+				<h2>Search and menus</h2>
+				<ul class="list-inline text-right chvrn">
+					<li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
+				</ul>
+				<div id="mb-pnl"></div>
+			</section>
+			<section id="wb-srch" class="col-xs-6 text-right visible-md visible-lg">
+				<h2 class="wb-inv">Search</h2>
+				<form action="#" method="post" name="cse-search-box" role="search" class="form-inline">
+					<div class="form-group">
+						<label for="wb-srch-q" class="wb-inv">Search website</label>
+						<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="27" maxlength="150" placeholder="Search Canada.ca" />
+						<datalist id="wb-srch-q-ac">
+							<!--[if lte IE 9]><select><![endif]-->
+							<!--[if lte IE 9]></select><![endif]-->
+						</datalist>
+					</div>
+					<div class="form-group submit">
+						<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
+					</div>
+				</form>			</section>
 		</div>
 	</div>
-	<nav role="navigation" id="wb-sm" data-ajax-replace="../../ajax/sitemenu-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+	<nav role="navigation" id="wb-sm" class="wb-menu visible-md visible-lg" data-trgt="mb-pnl" data-ajax-fetch="../../ajax/sitemenu-en.html" typeof="SiteNavigationElement">
+		<h2 class="wb-inv">Topics menu</h2>
 		<div class="container nvbar">
-			<h2>Topics menu</h2>
-			<div class="row">
-				<ul class="list-inline menu">
-					<li><a href="https://www.canada.ca/en/services/jobs.html">Jobs</a></li>
-					<li><a href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration</a></li>
-					<li><a href="https://travel.gc.ca/">Travel</a></li>
-					<li><a href="https://www.canada.ca/en/services/business.html">Business</a></li>
-					<li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
-					<li><a href="https://www.canada.ca/en/services/health.html">Health</a></li>
-					<li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
-					<li><a href="https://www.canada.ca/en/services.html">More services</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<nav role="navigation" id="wb-bc" property="breadcrumb">
-		<h2>You are here:</h2>
+		    <div class="row">
+		        <ul class="list-inline menu">
+		            <li><a href="http://www.esdc.gc.ca/en/jobs/index.page">Jobs</a></li>
+		            <li><a href="http://www.cic.gc.ca/english/index.asp">Immigration</a></li>
+		            <li><a href="http://travel.gc.ca">Travel</a></li>
+		            <li><a href="http://www.canada.ca/en/services/business/index.html">Business</a></li>
+		            <li><a href="http://www.canada.ca/en/services/benefits/index.html">Benefits</a></li>
+		            <li><a href="http://healthycanadians.gc.ca/index-eng.php">Health</a></li>
+		            <li><a href="http://www.canada.ca/en/services/taxes/index.html">Taxes</a></li>
+		            <li><a href="http://www.canada.ca/en/services/index.html">More services</a></li>
+		        </ul>
+		    </div>
+		</div>	</nav>
+	<nav role="navigation" id="wb-bc" class="" property="breadcrumb">
+		<h2 class="wb-inv">You are here:</h2>
 		<div class="container">
 			<div class="row">
 				<ol class="breadcrumb">
 					<li>
-						<a href="http://wet-boew.github.io/wet-boew/index-en.html">Home</a>
+						<a href="/index-en.html">Home</a>
 					</li>
-					<li>
-						<a href="http://wet-boew.github.io/wet-boew/demos/index-en.html">Working examples</a>
-					</li>
+						<li>
+							<a href="/demos/index-en.html">Working examples</a>
+						</li>
 					<li>Tabbed Interface - Carousel</li>
 				</ol>
 			</div>
 		</div>
 	</nav>
 </header>
-<main role="main" property="mainContentOfPage" class="container
-
-
-
-
-
-">
+<main role="main" property="mainContentOfPage" class="container">
 			<h1 property="name" id="wb-cont">Tabbed Interface - Carousel</h1>
 			
 			
@@ -147,15 +141,15 @@
 	<h2 id="carousel-s1">Carousel style 1 example (<code>carousel-s1</code>)</h2>
 	<div class="wb-tabs carousel-s1">
 		<ul role="tablist">
-			<li class="active"><a href="#panel1">Tab 1: Take Note: Renewal of the Aviation Document Booklet.</a></li>
-			<li><a href="#panel2">Tab 2: Take Note: Grade Crossing Improvement Program (GCIP).</a></li>
-			<li><a href="#panel3">Tab 3: Take Note: Tanker Safety Expert Panel.</a></li>
+			<li class="active"><a href="#panel1">Tab 1</a></li>
+			<li><a href="#panel2">Tab 2</a></li>
+			<li><a href="#panel3">Tab 3</a></li>
 		</ul>
 		<div class="tabpanels">
 			<div role="tabpanel" id="panel1" class="in fade">
 				<a href="http://www.tc.gc.ca/eng/civilaviation/opssvs/general-personnel-changes-1814.htm">
 					<figure>
-						<img src="img/protect-environment.jpg" alt="" />
+						<img src="img/protect-environment.jpg" alt="Panel 1" />
 						<figcaption>
 							<p>Take Note: Renewal of the Aviation Document Booklet.</p>
 						</figcaption>
@@ -165,7 +159,7 @@
 			<div role="tabpanel" id="panel2" class="out fade">
 				<a href="http://www.tc.gc.ca/eng/railsafety/publications-46.htm">
 					<figure>
-						<img src="img/banff.jpg" alt="" />
+						<img src="img/banff.jpg" alt="Panel 2" />
 						<figcaption>
 							<p>Take Note: Grade Crossing Improvement Program (GCIP).</p>
 						</figcaption>
@@ -175,7 +169,7 @@
 			<div role="tabpanel" id="panel3" class="out fade">
 				<a href="http://www.tc.gc.ca/eng/tankersafetyexpertpanel/menu.htm">
 					<figure>
-						<img src="img/investinourfuture.jpg" alt="" />
+						<img src="img/investinourfuture.jpg" alt="Panel 3" />
 						<figcaption>
 							<p>Take Note: Tanker Safety Expert Panel.</p>
 						</figcaption>
@@ -191,14 +185,14 @@
 			<summary>View code</summary>
 			<pre><code>&lt;div class=&quot;wb-tabs carousel-s1&quot;&gt;
 	&lt;ul role=&quot;tablist&quot;&gt;
-		&lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#panel1&quot;&gt;Tab 1: ...&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;#panel2&quot;&gt;Tab 2: ...&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#panel1&quot;&gt;Tab 1&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#panel2&quot;&gt;Tab 2&lt;/a&gt;&lt;/li&gt;
 		...
 	&lt;/ul&gt;
 	&lt;div class=&quot;tabpanels&quot;&gt;
 		&lt;div role=&quot;tabpanel&quot; id=&quot;panel1&quot; class=&quot;in fade&quot;&gt;
 			&lt;figure&gt;
-				&lt;img src=&quot;img/protect-environment.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;img src=&quot;img/protect-environment.jpg&quot; alt=&quot;Panel 1&quot; /&gt;
 				&lt;figcaption&gt;
 					&lt;p&gt;
 						...
@@ -208,7 +202,7 @@
 		&lt;/div&gt;
 		&lt;div role=&quot;tabpanel&quot; id=&quot;panel2&quot; class=&quot;out fade&quot;&gt;
 			&lt;figure&gt;
-				&lt;img src=&quot;img/banff.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;img src=&quot;img/banff.jpg&quot; alt=&quot;Panel 2&quot; /&gt;
 				&lt;figcaption&gt;
 					&lt;p&gt;
 						...
@@ -227,15 +221,15 @@
 	<h2 id="carousel-s2">Carousel style 2 example (<code>carousel-s2</code>)</h2>
 	<div class="wb-tabs carousel-s2">
 		<ul role="tablist">
-			<li class="active"><a href="#panel4"><img src="img/protect-environment.jpg" alt="Tab 1: Take Note: Renewal of the Aviation Document Booklet." /></a></li>
-			<li><a href="#panel5"><img src="img/banff.jpg" alt="Tab 2: Take Note: Grade Crossing Improvement Program (GCIP)." /></a></li>
-			<li><a href="#panel6"><img src="img/investinourfuture.jpg" alt="Tab 3: Take Note: Tanker Safety Expert Panel." /></a></li>
+			<li class="active"><a href="#panel4"><img src="img/protect-environment.jpg" alt="tab 1" /></a></li>
+			<li><a href="#panel5"><img src="img/banff.jpg" alt="tab 2" /></a></li>
+			<li><a href="#panel6"><img src="img/investinourfuture.jpg" alt="tab 3" /></a></li>
 		</ul>
 		<div class="tabpanels">
 			<div role="tabpanel" id="panel4" class="in fade">
 				<a href="http://www.tc.gc.ca/eng/civilaviation/opssvs/general-personnel-changes-1814.htm">
 					<figure>
-						<img src="img/protect-environment.jpg" alt="" />
+						<img src="img/protect-environment.jpg" alt="Panel 1" />
 						<figcaption>
 							<p>Take Note: Renewal of the Aviation Document Booklet.</p>
 						</figcaption>
@@ -245,7 +239,7 @@
 			<div role="tabpanel" id="panel5" class="out fade">
 				<a href="http://www.tc.gc.ca/eng/railsafety/publications-46.htm">
 					<figure>
-						<img src="img/banff.jpg" alt="" />
+						<img src="img/banff.jpg" alt="Panel 2" />
 						<figcaption>
 							<p>Take Note: Grade Crossing Improvement Program (GCIP).</p>
 						</figcaption>
@@ -255,7 +249,7 @@
 			<div role="tabpanel" id="panel6" class="out fade">
 				<a href="http://www.tc.gc.ca/eng/tankersafetyexpertpanel/menu.htm">
 					<figure>
-						<img src="img/investinourfuture.jpg" alt="" />
+						<img src="img/investinourfuture.jpg" alt="Panel 3" />
 						<figcaption>
 							<p>Take Note: Tanker Safety Expert Panel.</p>
 						</figcaption>
@@ -271,14 +265,14 @@
 			<summary>View code</summary>
 			<pre><code>&lt;div class=&quot;wb-tabs carousel-s2&quot;&gt;
 	&lt;ul role=&quot;tablist&quot;&gt;
-		&lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#panel4&quot;&gt;&lt;img src=&quot;img/protect-environment.jpg&quot; alt=&quot;Tab 1: ...&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;#panel5&quot;&gt;&lt;img src=&quot;img/banff.jpg&quot; alt=&quot;Tab 2: ...&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#panel4&quot;&gt;&lt;img src=&quot;img/protect-environment.jpg&quot; alt=&quot;tab 1&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#panel5&quot;&gt;&lt;img src=&quot;img/banff.jpg&quot; alt=&quot;tab 2&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 		...
 	&lt;/ul&gt;
 	&lt;div class=&quot;tabpanels&quot;&gt;
 		&lt;div role=&quot;tabpanel&quot; id=&quot;panel4&quot; class=&quot;in fade&quot;&gt;
 			&lt;figure&gt;
-				&lt;img src=&quot;img/protect-environment.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;img src=&quot;img/protect-environment.jpg&quot; alt=&quot;Panel 1&quot; /&gt;
 				&lt;figcaption&gt;
 					&lt;p&gt;
 						...
@@ -288,7 +282,7 @@
 		&lt;/div&gt;
 		&lt;div role=&quot;tabpanel&quot; id=&quot;panel5&quot; class=&quot;out fade&quot;&gt;
 			&lt;figure&gt;
-				&lt;img src=&quot;img/banff.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;img src=&quot;img/banff.jpg&quot; alt=&quot;Panel 2&quot; /&gt;
 				&lt;figcaption&gt;
 					&lt;p&gt;
 						...
@@ -307,15 +301,15 @@
 	<h2 id="carousel-s2-thmb">Carousel style 2 with thumbnails example (<code>carousel-s2 show-thumbs</code>)</h2>
 	<div class="wb-tabs carousel-s2 show-thumbs">
 		<ul role="tablist">
-			<li class="active"><a href="#panel30"><img src="img/protect-environment.jpg" alt="Tab 1: Take Note: Renewal of the Aviation Document Booklet." /></a></li>
-			<li><a href="#panel31"><img src="img/banff.jpg" alt="Tab 2: Take Note: Grade Crossing Improvement Program (GCIP)." /></a></li>
-			<li><a href="#panel32"><img src="img/investinourfuture.jpg" alt="Tab 3: Take Note: Tanker Safety Expert Panel." /></a></li>
+			<li class="active"><a href="#panel30"><img src="img/protect-environment.jpg" alt="tab 1" /></a></li>
+			<li><a href="#panel31"><img src="img/banff.jpg" alt="tab 2" /></a></li>
+			<li><a href="#panel32"><img src="img/investinourfuture.jpg" alt="tab 3" /></a></li>
 		</ul>
 		<div class="tabpanels">
 			<div role="tabpanel" id="panel30" class="in fade">
 				<a href="http://www.tc.gc.ca/eng/civilaviation/opssvs/general-personnel-changes-1814.htm">
 					<figure>
-						<img src="img/protect-environment.jpg" alt="" />
+						<img src="img/protect-environment.jpg" alt="Panel 1" />
 						<figcaption>
 							<p>Take Note: Renewal of the Aviation Document Booklet.</p>
 						</figcaption>
@@ -325,7 +319,7 @@
 			<div role="tabpanel" id="panel31" class="out fade">
 				<a href="http://www.tc.gc.ca/eng/railsafety/publications-46.htm">
 					<figure>
-						<img src="img/banff.jpg" alt="" />
+						<img src="img/banff.jpg" alt="Panel 2" />
 						<figcaption>
 							<p>Take Note: Grade Crossing Improvement Program (GCIP).</p>
 						</figcaption>
@@ -335,7 +329,7 @@
 			<div role="tabpanel" id="panel32" class="out fade">
 				<a href="http://www.tc.gc.ca/eng/tankersafetyexpertpanel/menu.htm">
 					<figure>
-						<img src="img/investinourfuture.jpg" alt="" />
+						<img src="img/investinourfuture.jpg" alt="Panel 3" />
 						<figcaption>
 							<p>Take Note: Tanker Safety Expert Panel.</p>
 						</figcaption>
@@ -349,16 +343,16 @@
 		<h3>Code</h3>
 		<details>
 			<summary>View code</summary>
-			<pre><code>&lt;div class=&quot;wb-tabs carousel-s2  show-thumbs&quot;&gt;
+			<pre><code>&lt;div class=&quot;wb-tabs carousel-s2&quot;&gt;
 	&lt;ul role=&quot;tablist&quot;&gt;
-		&lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#panel30&quot;&gt;&lt;img src=&quot;img/protect-environment.jpg&quot; alt=&quot;Tab 1: ...&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;#panel31&quot;&gt;&lt;img src=&quot;img/banff.jpg&quot; alt=&quot;Tab 2: ...&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#panel30&quot;&gt;&lt;img src=&quot;img/protect-environment.jpg&quot; alt=&quot;tab 1&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#panel31&quot;&gt;&lt;img src=&quot;img/banff.jpg&quot; alt=&quot;tab 2&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 		...
 	&lt;/ul&gt;
 	&lt;div class=&quot;tabpanels&quot;&gt;
 		&lt;div role=&quot;tabpanel&quot; id=&quot;panel30&quot; class=&quot;in fade&quot;&gt;
 			&lt;figure&gt;
-				&lt;img src=&quot;img/protect-environment.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;img src=&quot;img/protect-environment.jpg&quot; alt=&quot;Panel 1&quot; /&gt;
 				&lt;figcaption&gt;
 					&lt;p&gt;
 						...
@@ -368,7 +362,7 @@
 		&lt;/div&gt;
 		&lt;div role=&quot;tabpanel&quot; id=&quot;panel31&quot; class=&quot;out fade&quot;&gt;
 			&lt;figure&gt;
-				&lt;img src=&quot;img/banff.jpg&quot; alt=&quot;&quot; /&gt;
+				&lt;img src=&quot;img/banff.jpg&quot; alt=&quot;Panel 2&quot; /&gt;
 				&lt;figcaption&gt;
 					&lt;p&gt;
 						...
@@ -390,15 +384,15 @@
 			<h3>Carousel style 1 - col-sm-6 col-md-4</h3>
 			<div class="wb-tabs carousel-s1">
 				<ul role="tablist">
-					<li class="active"><a href="#panel7">Tab 1: Take Note: Renewal of the Aviation Document Booklet.</a></li>
-					<li><a href="#panel8">Tab 2: Take Note: Grade Crossing Improvement Program (GCIP).</a></li>
-					<li><a href="#panel9">Tab 3: Take Note: Tanker Safety Expert Panel.</a></li>
+					<li class="active"><a href="#panel7">Tab 1</a></li>
+					<li><a href="#panel8">Tab 2</a></li>
+					<li><a href="#panel9">Tab 3</a></li>
 				</ul>
 				<div class="tabpanels">
 					<div role="tabpanel" id="panel7" class="in fade">
 						<a href="http://www.tc.gc.ca/eng/civilaviation/opssvs/general-personnel-changes-1814.htm">
 							<figure>
-								<img src="img/protect-environment.jpg" alt="" />
+								<img src="img/protect-environment.jpg" alt="Panel 1" />
 								<figcaption>
 									<p>Take Note: Renewal of the Aviation Document Booklet.</p>
 								</figcaption>
@@ -408,7 +402,7 @@
 					<div role="tabpanel" id="panel8" class="out fade">
 						<a href="http://www.tc.gc.ca/eng/railsafety/publications-46.htm">
 							<figure>
-								<img src="img/banff.jpg" alt="" />
+								<img src="img/banff.jpg" alt="Panel 2" />
 								<figcaption>
 									<p>Take Note: Grade Crossing Improvement Program (GCIP).</p>
 								</figcaption>
@@ -418,7 +412,7 @@
 					<div role="tabpanel" id="panel9" class="out fade">
 						<a href="http://www.tc.gc.ca/eng/tankersafetyexpertpanel/menu.htm">
 							<figure>
-								<img src="img/investinourfuture.jpg" alt="" />
+								<img src="img/investinourfuture.jpg" alt="Panel 3" />
 								<figcaption>
 									<p>Take Note: Tanker Safety Expert Panel.</p>
 								</figcaption>
@@ -427,41 +421,20 @@
 					</div>
 				</div>
 			</div>
-            <!--
-
-               -->
-            <h3>Carousel - Style 1 - Only one choice (slider controls and tranisitions are not applied)</h3>
-            <div class="wb-tabs carousel-s1">
-                <ul role="tablist">
-                    <li><a href="#panels7">Tab 1: Take Note: Renewal of the Aviation Document Booklet.</a></li>
-                </ul>
-                <div class="tabpanels">
-                    <div role="tabpanel" id="panels7" class="in fade">
-                        <a href="http://www.tc.gc.ca/eng/civilaviation/opssvs/general-personnel-changes-1814.htm">
-                            <figure>
-                                <img src="img/protect-environment.jpg" alt="" />
-                                <figcaption>
-                                    <p>Take Note: Renewal of the Aviation Document Booklet.</p>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </div>
-                </div>
-            </div>
 		</section>
 		<section class="col-sm-6 col-md-8">
 			<h3>Carousel style 2 - col-sm-6 col-md-8</h3>
 			<div class="wb-tabs carousel-s2">
 				<ul role="tablist">
-					<li class="active"><a href="#panel10">Tab 1: Take Note: Renewal of the Aviation Document Booklet.</a></li>
-					<li><a href="#panel11">Tab 2: Take Note: Grade Crossing Improvement Program (GCIP).</a></li>
-					<li><a href="#panel12">Ŧab 3: Take Note: Tanker Safety Expert Panel.</a></li>
+					<li class="active"><a href="#panel10">Tab 1</a></li>
+					<li><a href="#panel11">Tab 2</a></li>
+					<li><a href="#panel12">Ŧab 3</a></li>
 				</ul>
 				<div class="tabpanels">
 					<div role="tabpanel" id="panel10" class="in fade">
 						<a href="http://www.tc.gc.ca/eng/civilaviation/opssvs/general-personnel-changes-1814.htm">
 							<figure>
-								<img src="img/protect-environment.jpg" alt="" />
+								<img src="img/protect-environment.jpg" alt="Panel 1" />
 								<figcaption>
 									<p>Take Note: Renewal of the Aviation Document Booklet.</p>
 								</figcaption>
@@ -471,7 +444,7 @@
 					<div role="tabpanel" id="panel11" class="out fade">
 						<a href="http://www.tc.gc.ca/eng/railsafety/publications-46.htm">
 							<figure>
-								<img src="img/banff.jpg" alt="" />
+								<img src="img/banff.jpg" alt="Panel 2" />
 								<figcaption>
 									<p>Take Note: Grade Crossing Improvement Program (GCIP).</p>
 								</figcaption>
@@ -481,7 +454,7 @@
 					<div role="tabpanel" id="panel12" class="out fade">
 						<a href="http://www.tc.gc.ca/eng/tankersafetyexpertpanel/menu.htm">
 							<figure>
-								<img src="img/investinourfuture.jpg" alt="" />
+								<img src="img/investinourfuture.jpg" alt="Panel 3" />
 								<figcaption>
 									<p>Take Note: Tanker Safety Expert Panel.</p>
 								</figcaption>
@@ -531,15 +504,15 @@
 		<h3>Data attribute example (<code>data-wb-tabs='{"interval": 3}'</code>)</h3>
 		<div class="wb-tabs carousel-s2" data-wb-tabs='{"interval": 3}'>
 			<ul role="tablist">
-				<li class="active"><a href="#panel13">Tab 1: Take Note: Renewal of the Aviation Document Booklet.</a></li>
-				<li><a href="#panel14">Tab 2: Take Note: Grade Crossing Improvement Program (GCIP).</a></li>
-				<li><a href="#panel15">Tab 3: Take Note: Tanker Safety Expert Panel.</a></li>
+				<li class="active"><a href="#panel13">Tab 1</a></li>
+				<li><a href="#panel14">Tab 2</a></li>
+				<li><a href="#panel15">Tab 3</a></li>
 			</ul>
 			<div class="tabpanels">
 				<div role="tabpanel" id="panel13" class="in fade">
 					<a href="http://www.tc.gc.ca/eng/civilaviation/opssvs/general-personnel-changes-1814.htm">
 						<figure>
-							<img src="img/protect-environment.jpg" alt="" />
+							<img src="img/protect-environment.jpg" alt="Panel 1" />
 							<figcaption>
 								<p>Take Note: Renewal of the Aviation Document Booklet.</p>
 							</figcaption>
@@ -549,7 +522,7 @@
 				<div role="tabpanel" id="panel14" class="out fade">
 					<a href="http://www.tc.gc.ca/eng/railsafety/publications-46.htm">
 						<figure>
-							<img src="img/banff.jpg" alt="" />
+							<img src="img/banff.jpg" alt="Panel 2" />
 							<figcaption>
 								<p>Take Note: Grade Crossing Improvement Program (GCIP).</p>
 							</figcaption>
@@ -559,7 +532,7 @@
 				<div role="tabpanel" id="panel15" class="out fade">
 					<a href="http://www.tc.gc.ca/eng/tankersafetyexpertpanel/menu.htm">
 						<figure>
-							<img src="img/investinourfuture.jpg" alt="" />
+							<img src="img/investinourfuture.jpg" alt="Panel 3" />
 							<figcaption>
 								<p>Take Note: Tanker Safety Expert Panel.</p>
 							</figcaption>
@@ -582,15 +555,15 @@
 		<h3>CSS classes example (<code>slow</code>, <code>fast</code>)</h3>
 		<div class="wb-tabs carousel-s2 fast">
 			<ul role="tablist">
-				<li class="active"><a href="#panel16">Tab 1: Take Note: Renewal of the Aviation Document Booklet.</a></li>
-				<li><a href="#panel17">Tab 2: Take Note: Grade Crossing Improvement Program (GCIP).</a></li>
-				<li><a href="#panel18">Tab 3: Take Note: Tanker Safety Expert Panel.</a></li>
+				<li class="active"><a href="#panel16">Tab 1</a></li>
+				<li><a href="#panel17">Tab 2</a></li>
+				<li><a href="#panel18">Tab 3</a></li>
 			</ul>
 			<div class="tabpanels">
 				<div role="tabpanel" id="panel16" class="in fade">
 					<a href="http://www.tc.gc.ca/eng/civilaviation/opssvs/general-personnel-changes-1814.htm">
 						<figure>
-							<img src="img/protect-environment.jpg" alt="" />
+							<img src="img/protect-environment.jpg" alt="Panel 1" />
 							<figcaption>
 								<p>Take Note: Renewal of the Aviation Document Booklet.</p>
 							</figcaption>
@@ -600,7 +573,7 @@
 				<div role="tabpanel" id="panel17" class="out fade">
 					<a href="http://www.tc.gc.ca/eng/railsafety/publications-46.htm">
 						<figure>
-							<img src="img/banff.jpg" alt="" />
+							<img src="img/banff.jpg" alt="Panel 2" />
 							<figcaption>
 								<p>Take Note: Grade Crossing Improvement Program (GCIP).</p>
 							</figcaption>
@@ -610,7 +583,7 @@
 				<div role="tabpanel" id="panel18" class="out fade">
 					<a href="http://www.tc.gc.ca/eng/tankersafetyexpertpanel/menu.htm">
 						<figure>
-							<img src="img/investinourfuture.jpg" alt="" />
+							<img src="img/investinourfuture.jpg" alt="Panel 3" />
 							<figcaption>
 								<p>Take Note: Tanker Safety Expert Panel.</p>
 							</figcaption>
@@ -717,42 +690,44 @@
 	<h2>CSS Transitions</h2>
 	<section>
 		<h3 id="fade">Fade example (<code>fade</code>)</h3>
-		<div class="wb-tabs carousel-s2 fast">
-			<ul role="tablist">
-				<li class="active"><a href="#panel21">Tab 1: Take Note: Renewal of the Aviation Document Booklet.</a></li>
-				<li><a href="#panel22">Tab 2: Take Note: Grade Crossing Improvement Program (GCIP).</a></li>
-				<li><a href="#panel23">Tab 3: Take Note: Tanker Safety Expert Panel.</a></li>
-			</ul>
-			<div class="tabpanels">
-				<div role="tabpanel" id="panel21" class="in fade">
-					<a href="http://www.tc.gc.ca/eng/civilaviation/opssvs/general-personnel-changes-1814.htm">
-						<figure>
-							<img src="img/protect-environment.jpg" alt="" />
-							<figcaption>
-								<p>Take Note: Renewal of the Aviation Document Booklet.</p>
-							</figcaption>
-						</figure>
-					</a>
-				</div>
-				<div role="tabpanel" id="panel22" class="out fade">
-					<a href="http://www.tc.gc.ca/eng/railsafety/publications-46.htm">
-						<figure>
-							<img src="img/banff.jpg" alt="" />
-							<figcaption>
-								<p>Take Note: Grade Crossing Improvement Program (GCIP).</p>
-							</figcaption>
-						</figure>
-					</a>
-				</div>
-				<div role="tabpanel" id="panel23" class="out fade">
-					<a href="http://www.tc.gc.ca/eng/tankersafetyexpertpanel/menu.htm">
-						<figure>
-							<img src="img/investinourfuture.jpg" alt="" />
-							<figcaption>
-								<p>Take Note: Tanker Safety Expert Panel.</p>
-							</figcaption>
-						</figure>
-					</a>
+		<div class="row">
+			<div class="wb-tabs carousel-s2 fast">
+				<ul role="tablist">
+					<li class="active"><a href="#panel21">Tab 1</a></li>
+					<li><a href="#panel22">Tab 2</a></li>
+					<li><a href="#panel23">Tab 3</a></li>
+				</ul>
+				<div class="tabpanels">
+					<div role="tabpanel" id="panel21" class="in fade">
+						<a href="http://www.tc.gc.ca/eng/civilaviation/opssvs/general-personnel-changes-1814.htm">
+							<figure>
+								<img src="img/protect-environment.jpg" alt="Panel 1" />
+								<figcaption>
+									<p>Take Note: Renewal of the Aviation Document Booklet.</p>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					<div role="tabpanel" id="panel22" class="out fade">
+						<a href="http://www.tc.gc.ca/eng/railsafety/publications-46.htm">
+							<figure>
+								<img src="img/banff.jpg" alt="Panel 2" />
+								<figcaption>
+									<p>Take Note: Grade Crossing Improvement Program (GCIP).</p>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					<div role="tabpanel" id="panel23" class="out fade">
+						<a href="http://www.tc.gc.ca/eng/tankersafetyexpertpanel/menu.htm">
+							<figure>
+								<img src="img/investinourfuture.jpg" alt="Panel 3" />
+								<figcaption>
+									<p>Take Note: Tanker Safety Expert Panel.</p>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -761,20 +736,22 @@
 			<h4>Code</h4>
 			<details>
 				<summary>View code</summary>
-				<pre><code>&lt;div class=&quot;wb-tabs carousel-s2 fast&quot;&gt;
-	&lt;ul role=&quot;tablist&quot;&gt;
-		&lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#panel21&quot;&gt;Tab 1: ...&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;#panel22&quot;&gt;Tab 2: ...&lt;/a&gt;&lt;/li&gt;
-		...
-	&lt;/ul&gt;
-	&lt;div class=&quot;tabpanels&quot;&gt;
-		&lt;div role=&quot;tabpanel&quot; id=&quot;panel21&quot; class=&quot;in fade&quot;&gt;
+				<pre><code>&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;wb-tabs carousel-s2 fast&quot;&gt;
+		&lt;ul role=&quot;tablist&quot;&gt;
+			&lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#panel21&quot;&gt;Tab 1&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;#panel22&quot;&gt;Tab 2&lt;/a&gt;&lt;/li&gt;
+			...
+		&lt;/ul&gt;
+		&lt;div class=&quot;tabpanels&quot;&gt;
+			&lt;div role=&quot;tabpanel&quot; id=&quot;panel21&quot; class=&quot;in fade&quot;&gt;
+				...
+			&lt;/div&gt;
+			&lt;div role=&quot;tabpanel&quot; id=&quot;panel22&quot; class=&quot;out fade&quot;&gt;
+				...
+			&lt;/div&gt;
 			...
 		&lt;/div&gt;
-		&lt;div role=&quot;tabpanel&quot; id=&quot;panel22&quot; class=&quot;out fade&quot;&gt;
-			...
-		&lt;/div&gt;
-		...
 	&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 			</details>
@@ -783,42 +760,44 @@
 
 	<section>
 		<h3 id="slide">Slide - Horizontal example (<code>slide</code>)</h3>
-		<div class="wb-tabs carousel-s2 fast">
-			<ul role="tablist">
-				<li class="active"><a href="#panel24">Tab 1: Take Note: Renewal of the Aviation Document Booklet.</a></li>
-				<li><a href="#panel25">Tab 2: Take Note: Grade Crossing Improvement Program (GCIP).</a></li>
-				<li><a href="#panel26">Tab 3: Take Note: Tanker Safety Expert Panel.</a></li>
-			</ul>
-			<div class="tabpanels">
-				<div role="tabpanel" id="panel24" class="slide in">
-					<a href="http://www.tc.gc.ca/eng/civilaviation/opssvs/general-personnel-changes-1814.htm">
-						<figure>
-							<img src="img/protect-environment.jpg" alt="" />
-							<figcaption>
-								<p>Take Note: Renewal of the Aviation Document Booklet.</p>
-							</figcaption>
-						</figure>
-					</a>
-				</div>
-				<div role="tabpanel" id="panel25" class="slide out">
-					<a href="http://www.tc.gc.ca/eng/railsafety/publications-46.htm">
-						<figure>
-							<img src="img/banff.jpg" alt="" />
-							<figcaption>
-								<p>Take Note: Grade Crossing Improvement Program (GCIP).</p>
-							</figcaption>
-						</figure>
-					</a>
-				</div>
-				<div role="tabpanel" id="panel26" class="slide out">
-					<a href="http://www.tc.gc.ca/eng/tankersafetyexpertpanel/menu.htm">
-						<figure>
-							<img src="img/investinourfuture.jpg" alt="" />
-							<figcaption>
-								<p>Take Note: Tanker Safety Expert Panel.</p>
-							</figcaption>
-						</figure>
-					</a>
+		<div class="row">
+			<div class="wb-tabs carousel-s2 fast">
+				<ul role="tablist">
+					<li class="active"><a href="#panel24">Tab 1</a></li>
+					<li><a href="#panel25">Tab 2</a></li>
+					<li><a href="#panel26">Tab 3</a></li>
+				</ul>
+				<div class="tabpanels">
+					<div role="tabpanel" id="panel24" class="slide in">
+						<a href="http://www.tc.gc.ca/eng/civilaviation/opssvs/general-personnel-changes-1814.htm">
+							<figure>
+								<img src="img/protect-environment.jpg" alt="Panel 1" />
+								<figcaption>
+									<p>Take Note: Renewal of the Aviation Document Booklet.</p>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					<div role="tabpanel" id="panel25" class="slide out">
+						<a href="http://www.tc.gc.ca/eng/railsafety/publications-46.htm">
+							<figure>
+								<img src="img/banff.jpg" alt="Panel 2" />
+								<figcaption>
+									<p>Take Note: Grade Crossing Improvement Program (GCIP).</p>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					<div role="tabpanel" id="panel26" class="slide out">
+						<a href="http://www.tc.gc.ca/eng/tankersafetyexpertpanel/menu.htm">
+							<figure>
+								<img src="img/investinourfuture.jpg" alt="Panel 3" />
+								<figcaption>
+									<p>Take Note: Tanker Safety Expert Panel.</p>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -827,20 +806,22 @@
 			<h4>Code</h4>
 			<details>
 				<summary>View code</summary>
-				<pre><code>&lt;div class=&quot;wb-tabs carousel-s2 fast&quot;&gt;
-	&lt;ul role=&quot;tablist&quot;&gt;
-		&lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#panel24&quot;&gt;Tab 1: ...&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;#panel25&quot;&gt;Tab 2: ...&lt;/a&gt;&lt;/li&gt;
-		...
-	&lt;/ul&gt;
-	&lt;div class=&quot;tabpanels&quot;&gt;
-		&lt;div role=&quot;tabpanel&quot; id=&quot;panel24&quot; class=&quot;slide in&quot;&gt;
+				<pre><code>&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;wb-tabs carousel-s2 fast&quot;&gt;
+		&lt;ul role=&quot;tablist&quot;&gt;
+			&lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#panel24&quot;&gt;Tab 1&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;#panel25&quot;&gt;Tab 2&lt;/a&gt;&lt;/li&gt;
+			...
+		&lt;/ul&gt;
+		&lt;div class=&quot;tabpanels&quot;&gt;
+			&lt;div role=&quot;tabpanel&quot; id=&quot;panel24&quot; class=&quot;slide in&quot;&gt;
+				...
+			&lt;/div&gt;
+			&lt;div role=&quot;tabpanel&quot; id=&quot;panel25&quot; class=&quot;slide out&quot;&gt;
+				...
+			&lt;/div&gt;
 			...
 		&lt;/div&gt;
-		&lt;div role=&quot;tabpanel&quot; id=&quot;panel25&quot; class=&quot;slide out&quot;&gt;
-			...
-		&lt;/div&gt;
-		...
 	&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 			</details>
@@ -849,42 +830,44 @@
 
 	<section>
 		<h3 id="slidevert">Slide - Vertical example (<code>slidevert</code>)</h3>
-		<div class="wb-tabs carousel-s2 fast">
-			<ul role="tablist">
-				<li class="active"><a href="#panel27">Tab 1: Take Note: Renewal of the Aviation Document Booklet.</a></li>
-				<li><a href="#panel28">Tab 2: Take Note: Grade Crossing Improvement Program (GCIP).</a></li>
-				<li><a href="#panel29">Tab 3: Take Note: Tanker Safety Expert Panel.</a></li>
-			</ul>
-			<div class="tabpanels">
-				<div role="tabpanel" id="panel27" class="slidevert in">
-					<a href="http://www.tc.gc.ca/eng/civilaviation/opssvs/general-personnel-changes-1814.htm">
-						<figure>
-							<img src="img/protect-environment.jpg" alt="" />
-							<figcaption>
-								<p>Take Note: Renewal of the Aviation Document Booklet.</p>
-							</figcaption>
-						</figure>
-					</a>
-				</div>
-				<div role="tabpanel" id="panel28" class="slidevert out">
-					<a href="http://www.tc.gc.ca/eng/railsafety/publications-46.htm">
-						<figure>
-							<img src="img/banff.jpg" alt="" />
-							<figcaption>
-								<p>Take Note: Grade Crossing Improvement Program (GCIP).</p>
-							</figcaption>
-						</figure>
-					</a>
-				</div>
-				<div role="tabpanel" id="panel29" class="slidevert out">
-					<a href="http://www.tc.gc.ca/eng/tankersafetyexpertpanel/menu.htm">
-						<figure>
-							<img src="img/investinourfuture.jpg" alt="" />
-							<figcaption>
-								<p>Take Note: Tanker Safety Expert Panel.</p>
-							</figcaption>
-						</figure>
-					</a>
+		<div class="row">
+			<div class="wb-tabs carousel-s2 fast">
+				<ul role="tablist">
+					<li class="active"><a href="#panel27">Tab 1</a></li>
+					<li><a href="#panel28">Tab 2</a></li>
+					<li><a href="#panel29">Tab 3</a></li>
+				</ul>
+				<div class="tabpanels">
+					<div role="tabpanel" id="panel27" class="slidevert in">
+						<a href="http://www.tc.gc.ca/eng/civilaviation/opssvs/general-personnel-changes-1814.htm">
+							<figure>
+								<img src="img/protect-environment.jpg" alt="Panel 1" />
+								<figcaption>
+									<p>Take Note: Renewal of the Aviation Document Booklet.</p>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					<div role="tabpanel" id="panel28" class="slidevert out">
+						<a href="http://www.tc.gc.ca/eng/railsafety/publications-46.htm">
+							<figure>
+								<img src="img/banff.jpg" alt="Panel 2" />
+								<figcaption>
+									<p>Take Note: Grade Crossing Improvement Program (GCIP).</p>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					<div role="tabpanel" id="panel29" class="slidevert out">
+						<a href="http://www.tc.gc.ca/eng/tankersafetyexpertpanel/menu.htm">
+							<figure>
+								<img src="img/investinourfuture.jpg" alt="Panel 3" />
+								<figcaption>
+									<p>Take Note: Tanker Safety Expert Panel.</p>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -893,58 +876,40 @@
 			<h4>Code</h4>
 			<details>
 				<summary>View code</summary>
-				<pre><code>&lt;div class=&quot;wb-tabs carousel-s2 fast&quot;&gt;
-	&lt;ul role=&quot;tablist&quot;&gt;
-		&lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#panel27&quot;&gt;Tab 1: ...&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;#panel28&quot;&gt;Tab 2: ...&lt;/a&gt;&lt;/li&gt;
-		...
-	&lt;/ul&gt;
-	&lt;div class=&quot;tabpanels&quot;&gt;
-		&lt;div role=&quot;tabpanel&quot; id=&quot;panel27&quot; class=&quot;slidevert in&quot;&gt;
+				<pre><code>&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;wb-tabs carousel-s2 fast&quot;&gt;
+		&lt;ul role=&quot;tablist&quot;&gt;
+			&lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#panel27&quot;&gt;Tab 1&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;#panel28&quot;&gt;Tab 2&lt;/a&gt;&lt;/li&gt;
+			...
+		&lt;/ul&gt;
+		&lt;div class=&quot;tabpanels&quot;&gt;
+			&lt;div role=&quot;tabpanel&quot; id=&quot;panel27&quot; class=&quot;slidevert in&quot;&gt;
+				...
+			&lt;/div&gt;
+			&lt;div role=&quot;tabpanel&quot; id=&quot;panel28&quot; class=&quot;slidevert out&quot;&gt;
+				...
+			&lt;/div&gt;
 			...
 		&lt;/div&gt;
-		&lt;div role=&quot;tabpanel&quot; id=&quot;panel28&quot; class=&quot;slidevert out&quot;&gt;
-			...
-		&lt;/div&gt;
-		...
 	&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 			</details>
 		</section>
 	</section>
-    <section>
-        <h3>Carousel - Style 2 - Only one choice (slider controls and tranisitions are not applied)</h3>
-        <div class="wb-tabs carousel-s2 show-thumbs playing slow">
-            <ul role="tablist">
-                <li><a href="#paneln2">Tab 2: Take Note: Grade Crossing Improvement Program (GCIP).</a></li>
-            </ul>
-            <div class="tabpanels">
-                <div role="tabpanel" id="paneln2" class="in fade">
-                    <a href="http://www.tc.gc.ca/eng/railsafety/publications-46.htm">
-                        <figure>
-                            <img src="img/banff.jpg" alt="" />
-                            <figcaption>
-                                <p>Take Note: Grade Crossing Improvement Program (GCIP).</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
 </section>
 
-	<div class="pagedetails">
-		<dl id="wb-dtmd">
-			<dt>Date modified:&#32;</dt>
-			<dd><time property="dateModified">2017-10-02</time></dd>
-		</dl>
-		<div class="row">
-			<div class="col-sm-6 col-md-5 col-lg-4">
-				<a href="https://www.canada.ca/en/report-problem.html" class="btn btn-default btn-block">Report a problem on this page</a>
+		<div class="row pagedetails">
+			<div class="col-xs-6 datemod">
+				<dl id="wb-dtmd">
+					<dt>Date modified:&#32;</dt>
+					<dd><time property="dateModified">2014-08-01</time></dd>
+				</dl>
+			</div>
+			<div class="col-xs-6 text-right">
+				<a href="http://www.canada.ca/en/contact/feedback.html" class="btn btn-default"><span class="glyphicon glyphicon-comment mrgn-rght-sm"></span>Feedback<span class="wb-inv"> about this web site</span></a>
 			</div>
 		</div>
-	</div>
 </main>
 	<aside class="gc-nttvs container">
 		<h2>Government of Canada activities and initiatives</h2>
@@ -971,54 +936,95 @@
 			<p>Brief description of the initiative, task or information being promoted.</p>
 		</section>
 	</div>
-	</aside>
-	<footer role="contentinfo" id="wb-info">
-		<nav role="navigation" class="container wb-navcurr">
-			<h2 class="wb-inv">About government</h2>
-			<ul class="list-unstyled colcount-sm-2 colcount-md-3">
-				<li><a href="https://www.canada.ca/en/contact.html">Contact us</a></li>
-				<li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
-				<li><a href="https://www.canada.ca/en/government/publicservice.html">Public service and military</a></li>
-				<li><a href="https://www.canada.ca/en/news.html">News</a></li>
-				<li><a href="https://www.canada.ca/en/government/system/laws.html">Treaties, laws and regulations</a></li>
-				<li><a href="https://www.canada.ca/en/transparency/reporting.html">Government-wide reporting</a></li>
-				<li><a href="http://pm.gc.ca/eng">Prime Minister</a></li>
-				<li><a href="https://www.canada.ca/en/government/system.html">How government works</a></li>
-				<li><a href="http://open.canada.ca/en/">Open government</a></li>
-			</ul>	</nav>
-		<div class="brand">
-			<div class="container">
-				<div class="row ">
-					<nav class="col-md-9 col-lg-10 ftr-urlt-lnk">
-						<h2 class="wb-inv">About this site</h2>
-						<ul>
-							<li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
-							<li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
-							<li><a href="https://www1.canada.ca/en/newsite.html">About Canada.ca</a></li>
-							<li><a href="https://www.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
-							<li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
-						</ul>
-					</nav>
-					<div class="col-xs-6 visible-sm visible-xs tofpg">
-						<a href="#wb-cont">Top of Page <span class="glyphicon glyphicon-chevron-up"></span></a>
-					</div>
-					<div class="col-xs-6 col-md-3 col-lg-2 text-right">
-						<object type="image/svg+xml" tabindex="-1" role="img" data="../../../GCWeb/assets/wmms-blk.svg" aria-label="Symbol of the Government of Canada"></object>
-					</div>
+	</aside><footer role="contentinfo" id="wb-info">
+	<nav role="navigation" class="container visible-sm visible-md visible-lg wb-navcurr">
+		<h2 class="wb-inv">About this site</h2>
+		<div class="row">
+			<div class="col-sm-3 col-lg-3">
+				<section>
+					<h3>Contact information</h3>
+					<ul class="list-unstyled">
+						<li><a href="#">Link 1</a></li>
+						<li><a href="#">Link 2</a></li>
+						<li><a href="#">Link 3</a></li>
+					</ul>
+				</section>
+				<section>
+					<h3>News</h3>
+					<ul class="list-unstyled">
+						<li><a href="http://news.gc.ca/web/index-en.do">Newsroom</a></li>
+						<li><a href="http://news.gc.ca/web/nwsprdct-en.do?mthd=tp&amp;crtr.tp1D=1">News releases</a></li>
+						<li><a href="http://news.gc.ca/web/nwsprdct-en.do?mthd=tp&amp;crtr.tp1D=3">Media advisories</a></li>
+						<li><a href="http://news.gc.ca/web/nwsprdct-en.do?mthd=tp&amp;crtr.tp1D=970">Speeches</a></li>
+						<li><a href="http://news.gc.ca/web/nwsprdct-en.do?mthd=tp&amp;crtr.tp1D=980">Statements</a></li>
+					</ul>
+				</section>
+			</div>
+			<section class="col-sm-3 col-lg-3">
+				<h3>Government</h3>
+				<ul class="list-unstyled">
+					<li><a href="http://www.canada.ca/en/gov/system">How government works</a></li>
+					<li><a href="http://www.canada.ca/en/gov/dept">Departments & agencies</a></li>
+					<li><a href="http://pm.gc.ca/eng">Prime Minister</a></li>
+					<li><a href="http://www.canada.ca/en/gov/ministers">Ministers</a></li>
+					<li><a href="http://www.canada.ca/en/gov/publicservice">Public service & military</a></li>
+					<li><a href="http://www.canada.ca/en/gov/policy">Policies, regulations & laws</a></li>
+					<li><a href="http://www.canada.ca/en/gov/libraries">Libraries</a></li>
+					<li><a href="http://www.canada.ca/en/gov/publications">Publications</a></li>
+					<li><a href="http://www.canada.ca/en/gov/statistics">Statistics & data</a></li>
+					<li><a href="http://www.canada.ca/en/newsite.html">About Canada.ca</a></li>
+				</ul>
+			</section>
+			<section class="col-sm-3 col-lg-3 brdr-lft">
+				<h3>Transparency</h3>
+				<ul class="list-unstyled">
+					<li><a href="http://www.canada.ca/en/transparency/reporting.html">Government-wide reporting</a></li>
+					<li><a href="http://open.canada.ca/en">Open government</a></li>
+					<li><a href="http://www.canada.ca/en/transparency/disclosure.html">Proactive disclosure</a></li>
+					<li><a href="http://www.canada.ca/en/transparency/terms.html">Terms & conditions</a></li>
+					<li><a href="http://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
+				</ul>
+			</section>
+			<div class="col-sm-3 col-lg-3 brdr-lft">
+				<section>
+					<h3>Feedback</h3>
+					<p><a href="http://www.canada.ca/en/contact/feedback.html"><img src="../../assets/feedback.png" alt="Feedback about this Web site" /></a></p>
+				</section>
+				<section>
+					<h3>Social media</h3>
+					<p><a href="http://www.canada.ca/en/social"><img src="../../assets/social.png" alt="Social media" /></a></p>
+				</section>
+				<section>
+					<h3>Mobile centre</h3>
+					<p><a href="http://www.canada.ca/en/mobile"><img src="../../assets/mobile.png" alt="Mobile centre" /></a></p>
+				</section>
+			</div>
+		</div>	</nav>
+	
+	<div class="brand">
+		<div class="container">
+			<div class="row ">
+				<div class="col-xs-6 visible-sm visible-xs tofpg">
+					<a href="#wb-cont">Top of Page <span class="glyphicon glyphicon-chevron-up"></span></a>
+				</div>
+				<div class="col-xs-6 col-md-12 text-right">
+					<object type="image/svg+xml" tabindex="-1" role="img" data="../../assets/wmms-blk.svg" aria-label="Symbol of the Government of Canada"></object>
 				</div>
 			</div>
 		</div>
-	</footer>
+	</div>
+	
+</footer>
+
 		<!--[if gte IE 9 | !IE ]><!-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-		<script src="../../../wet-boew/js/wet-boew.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+		<script src="../../js/wet-boew.js"></script>
 		<!--<![endif]-->
-		
 		<!--[if lt IE 9]>
-		<script src="../../../wet-boew/js/ie8-wet-boew2.js"></script>
-		
+		<script src="../../js/ie8-wet-boew2.js"></script>
 		<![endif]-->
-		<script src="../../../GCWeb/js/theme.js"></script>
+		<script src="../../js/theme.js"></script>
+		
 		
 	</body>
 </html>

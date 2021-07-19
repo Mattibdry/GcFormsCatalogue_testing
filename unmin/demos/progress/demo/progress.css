@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*
  * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
  * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
@@ -9,5 +8,5 @@ progress {
 .progress {
   margin-bottom: 0; }
 
-.no-js #update-progress {
+.no-js #updateProgress {
   display: none; }

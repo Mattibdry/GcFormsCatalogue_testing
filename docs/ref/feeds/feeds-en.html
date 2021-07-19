@@ -11,21 +11,22 @@
 <meta name="description" content="Aggregates and displays entries from one or more Web feeds.">
 <!-- Meta data-->
 <!--[if gte IE 9 | !IE ]><!-->
-<link href="../../../GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon">
-<link rel="stylesheet" href="../../../GCWeb/css/theme.min.css">
+<link href="../../../assets/favicon.ico" rel="icon" type="image/x-icon">
+<link rel="stylesheet" href="../../../css/wet-boew.min.css">
 <!--<![endif]-->
+<link rel="stylesheet" href="../../../css/theme.min.css">
 <!--[if lt IE 9]>
-		<link href="../../../GCWeb/assets/favicon.ico" rel="shortcut icon" />
+		<link href="../../../assets/favicon.ico" rel="shortcut icon" />
 		
-		<link rel="stylesheet" href="../../../GCWeb/css/ie8-theme.min.css" />
+		<link rel="stylesheet" href="../../../css/ie8-wet-boew.min.css" />
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script src="../../../wet-boew/js/ie8-wet-boew.min.js"></script>
+		<script src="../../../js/ie8-wet-boew.min.js"></script>
 		<![endif]-->
 <!--[if lte IE 9]>
 		
 		
 		<![endif]-->
-<noscript><link rel="stylesheet" href="../../../wet-boew/css/noscript.min.css" /></noscript>
+<noscript><link rel="stylesheet" href="../../../css/noscript.min.css" /></noscript>
 <!-- Google Tag Manager DO NOT REMOVE OR MODIFY - NE PAS SUPPRIMER OU MODIFIER -->
 <script>dataLayer1 = [];</script>
 <!-- End Google Tag Manager -->
@@ -39,10 +40,11 @@
 <li class="wb-slc">
 <a class="wb-sl" href="#wb-cont">Skip to main content</a>
 </li>
-<li class="wb-slc">
-<a class="wb-sl" href="#wb-info">Skip to "About government"</a>
+<li class="wb-slc visible-sm visible-md visible-lg">
+<a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
 </li>
-</ul><header role="banner">
+</ul>
+<header role="banner">
 <div id="wb-bnr" class="container">
 <section id="wb-lng" class="visible-md visible-lg text-right">
 <h2 class="wb-inv">Language selection</h2>
@@ -56,7 +58,7 @@
 </section>
 <div class="row">
 <div class="brand col-xs-8 col-sm-9 col-md-6">
-<a href="https://www.canada.ca/en.html"><object type="image/svg+xml" tabindex="-1" data="../../../GCWeb/assets/sig-blk-en.svg"></object><span class="wb-inv"> Government of Canada / <span lang="fr">Gouvernement du Canada</span></span></a>
+<a href="http://www.canada.ca/en/index.html"><object type="image/svg+xml" tabindex="-1" data="../../../assets/sig-blk-en.svg"></object><span class="wb-inv"> Government of Canada</span></a>
 </div>
 <section class="wb-mb-links col-xs-4 col-sm-3 visible-sm visible-xs" id="wb-glb-mn">
 <h2>Search and menus</h2>
@@ -66,7 +68,7 @@
 <div id="mb-pnl"></div>
 </section>
 <section id="wb-srch" class="col-xs-6 text-right visible-md visible-lg">
-<h2>Search</h2>
+<h2 class="wb-inv">Search</h2>
 <form action="#" method="post" name="cse-search-box" role="search" class="form-inline">
 <div class="form-group">
 <label for="wb-srch-q" class="wb-inv">Search website</label>
@@ -79,40 +81,38 @@
 <div class="form-group submit">
 <button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
 </div>
-</form>
-</section>
+</form> </section>
 </div>
 </div>
-<nav role="navigation" id="wb-sm" data-ajax-replace="../../../ajax/sitemenu-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+<nav role="navigation" id="wb-sm" class="wb-menu visible-md visible-lg" data-trgt="mb-pnl" data-ajax-fetch="../../../ajax/sitemenu-en.html" typeof="SiteNavigationElement">
+<h2 class="wb-inv">Topics menu</h2>
 <div class="container nvbar">
-<h2>Topics menu</h2>
 <div class="row">
 <ul class="list-inline menu">
-<li><a href="https://www.canada.ca/en/services/jobs.html">Jobs</a></li>
-<li><a href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration</a></li>
-<li><a href="https://travel.gc.ca/">Travel</a></li>
-<li><a href="https://www.canada.ca/en/services/business.html">Business</a></li>
-<li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
-<li><a href="https://www.canada.ca/en/services/health.html">Health</a></li>
-<li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
-<li><a href="https://www.canada.ca/en/services.html">More services</a></li>
+<li><a href="http://www.esdc.gc.ca/en/jobs/index.page">Jobs</a></li>
+<li><a href="http://www.cic.gc.ca/english/index.asp">Immigration</a></li>
+<li><a href="http://travel.gc.ca">Travel</a></li>
+<li><a href="http://www.canada.ca/en/services/business/index.html">Business</a></li>
+<li><a href="http://www.canada.ca/en/services/benefits/index.html">Benefits</a></li>
+<li><a href="http://healthycanadians.gc.ca/index-eng.php">Health</a></li>
+<li><a href="http://www.canada.ca/en/services/taxes/index.html">Taxes</a></li>
+<li><a href="http://www.canada.ca/en/services/index.html">More services</a></li>
 </ul>
 </div>
-</div>
-</nav>
-<nav role="navigation" id="wb-bc" property="breadcrumb">
-<h2>You are here:</h2>
+</div> </nav>
+<nav role="navigation" id="wb-bc" class="" property="breadcrumb">
+<h2 class="wb-inv">You are here:</h2>
 <div class="container">
 <div class="row">
 <ol class="breadcrumb">
 <li>
-<a href="http://wet-boew.github.io/wet-boew/index-en.html">Home</a>
+<a href="/index-en.html">Home</a>
 </li>
 <li>
-<a href="http://wet-boew.github.io/wet-boew/docs/index-en.html">Documentation</a>
+<a href="/docs/index-en.html">Documentation</a>
 </li>
 <li>
-<a href="http://wet-boew.github.io/wet-boew/docs/ref/plugins-en.html">Plugins</a>
+<a href="/docs/ref/plugins-en.html">Plugins</a>
 </li>
 <li>Feeds</li>
 </ol>
@@ -152,6 +152,12 @@
 <li>Inside the <code>section</code> element add a heading (<code>h1</code> - <code>h6</code>).</li>
 <li>Add an unordered list (<code>ul</code>) after the heading with the <code>feeds-cont</code> class.
 <ul>
+<li><strong>Facebook feeds:</strong>
+<ol>
+<li>Add the <code>media-list</code> class to the unordered list.</li>
+<li>Add <code>&lt;div class="clearfix"&gt;&lt;/div&gt;</code> after the unordered list.</li>
+</ol>
+</li>
 <li><strong>Flickr and YouTube feeds:</strong>
 <ol>
 <li>Add the <code>list-inline</code> class to the unordered list.</li>
@@ -167,10 +173,29 @@
 	&lt;a href="http://canada.ca/sample.atom"&gt;Sample Atom Feed&lt;/a&gt;
 &lt;/li&gt;</code></pre>
 </li>
+<li><strong>Facebook feeds:</strong>
+<ol>
+<li>Add a <code>media</code> class to the list element.</li>
+<li>Add a <code>pull-left</code> class to the link.</li>
+<li>Add a profile image with a <code>media-object</code> class to the link.</li>
+<li>Add a section element with a <code>media-body</code> class after the link.</li>
+<li>Inside the <code>section</code> element add a heading (<code>h1</code> - <code>h6</code>) with a <code>media-heading</code> class. Include the Facebook account name in this heading (e.g., "Parks Canada - Facebook").</li>
+<li>Add a <code>p</code> element containing the Facebook account description after the heading.</li>
+</ol>
+<pre><code>&lt;li class="media"&gt;
+	&lt;a class="pull-left" href="https://www.facebook.com/feeds/page.php?id=137563459593611&amp;amp;format=atom10"&gt;
+		&lt;img class="media-object" src="http://graph.facebook.com/137563459593611/picture?type=large" alt="Parks Canada Logo" width="64" /&gt;
+	&lt;/a&gt;
+	&lt;section class="media-body"&gt;
+		&lt;h4 class="media-heading"&gt;&lt;a href="https://www.facebook.com/feeds/page.php?id=137563459593611&amp;amp;format=atom10" rel="external"&gt;Parks Canada - Facebook&lt;/a&gt;&lt;/h4&gt;
+		&lt;p&gt;On behalf of the people of Canada, we protect and present nationally significant examples of Canada's natural and cultural heritage, and foster public understanding, appreciation and enjoyment in ways that ensure the ecological and commemorative integrity of these places for present and future generations.&lt;/p&gt;
+	&lt;/section&gt;
+&lt;/li&gt;</code></pre>
+</li>
 <li><strong>Flickr feeds:</strong>
 <ol>
 <li>The link <code>href</code> attribute needs to contain the URL of the Flickr account's photostream.</li>
-<li>Add a <code>data-ajax</code> attribute to the link containing the URL of the <a href="https://www.flickr.com/services/feeds/">Flickr account JSON feed</a>.</li>
+<li>Add a <code>data-ajax</code> attribute to the link containing the URL of the Flickr account JSON feed.</li>
 </ol>
 <pre><code>&lt;li&gt;
 	&lt;a href="https://www.flickr.com/photos/environmentcan" rel="external" data-ajax="https://api.flickr.com/services/feeds/photos_public.gne?id=47711201@N05&amp;amp;format=json"&gt;Environment Canada Flickr&lt;/a&gt;
@@ -192,17 +217,17 @@
 <li>Create a <code>div</code> element with <code>class="wb-tabs"</code>.</li>
 <li>Add a <code>div</code> element with <code>class="tabpanels"</code> within the previous <code>div</code> element.</li>
 <li>For each group of feeds (group feeds by type), add a <code>details</code> element. Add <code>open="open"</code> to the group of feeds that should be displayed by default.</li>
-<li>Add a <code>summary</code> element at the start of each <code>details</code> element with the name of the group of feeds (e.g., <code>&lt;summary&gt;Pinterest&lt;/summary&gt;</code>).</li>
+<li>Add a <code>summary</code> element at the start of each <code>details</code> element with the name of the group of feeds (e.g., <code>&lt;summary&gt;Facebook&lt;/summary&gt;</code>).</li>
 <li>Add the areas to display Web feeds after each <code>summary</code> element as described in steps 1 to 4, except add the <code>wb-inv</code> class to the heading for each area.</li>
 </ol>
 <pre><code>&lt;section&gt;
 	&lt;h3&gt;Tabbed Social Feeds&lt;/h3&gt;
 	&lt;div class="wb-tabs col-md-5 wb-eqht"&gt;
 		&lt;div class="tabpanels"&gt;
-		&lt;details id="details-pinterest" open="open"&gt;
-			&lt;summary&gt;Pinterest&lt;/summary&gt;
+			&lt;details id="details-facebook" open="open"&gt;
+				&lt;summary&gt;Facebook&lt;/summary&gt;
 				&lt;section class="wb-feeds limit-5"&gt;
-					&lt;h4 class="wb-inv"&gt;Pinterestk&lt;/h4&gt;
+					&lt;h4 class="wb-inv"&gt;Facebook&lt;/h4&gt;
 					&lt;ul class="feeds-cont media-list"&gt;
 						...
 					&lt;/ul&gt;
@@ -254,6 +279,32 @@
 &lt;/section&gt;</code></pre>
 </section>
 <section>
+<h4>Facebook feeds</h4>
+<pre><code>&lt;section class="wb-feeds limit-5"&gt;
+	&lt;ul class="feeds-cont media-list"&gt;
+		&lt;li class="media"&gt;
+			&lt;a class="pull-left" href="https://www.facebook.com/feeds/page.php?id=318424514044&amp;amp;format=atom10"&gt;
+				&lt;img class="media-object" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/c17.17.207.207/430015_10151952323214045_194318965_n.png" alt="Enviroment Canada Logo" width="64" /&gt;
+			&lt;/a&gt;
+			&lt;section class="media-body"&gt;
+				&lt;h4 class="media-heading"&gt;&lt;a href="https://www.facebook.com/feeds/page.php?id=318424514044&amp;amp;format=atom10" rel="external"&gt;Enviroment Canada - Facebook&lt;/a&gt;&lt;/h4&gt;
+				&lt;p&gt;At Environment Canada our business is protecting the environment, conserving the country's natural heritage and providing weather and environmental predictions to keep Canadians informed and safe.&lt;/p&gt;
+			&lt;/section&gt;
+		&lt;/li&gt;
+		&lt;li class="media"&gt;
+			&lt;a class="pull-left" href="https://www.facebook.com/feeds/page.php?id=137563459593611&amp;amp;format=atom10"&gt;
+				&lt;img class="media-object" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/t1.0-1/p320x320/10245484_872682866081663_8340097330550277155_n.png" alt="Parks Canada Logo" width="64" /&gt;
+			&lt;/a&gt;
+			&lt;section class="media-body"&gt;
+				&lt;h4 class="media-heading"&gt;&lt;a href="https://www.facebook.com/feeds/page.php?id=137563459593611&amp;amp;format=atom10" rel="external"&gt;Parks Canada - Facebook&lt;/a&gt;&lt;/h4&gt;
+				&lt;p&gt;On behalf of the people of Canada, we protect and present nationally significant examples of Canada's natural and cultural heritage, and foster public understanding, appreciation and enjoyment in ways that ensure the ecological and commemorative integrity of these places for present and future generations.&lt;/p&gt;
+			&lt;/section&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;div class="clearfix"&gt;&lt;/div&gt;
+&lt;/section&gt;</code></pre>
+</section>
+<section>
 <h4>Flickr feeds</h4>
 <pre><code>&lt;section class="wb-feeds limit-15"&gt;
 	&lt;ul class="feeds-cont list-inline"&gt;
@@ -284,8 +335,35 @@
 	&lt;h3&gt;Tabbed Social Feeds&lt;/h3&gt;
 	&lt;div class="wb-tabs col-md-5 wb-eqht"&gt;
 		&lt;div class="tabpanels"&gt;
+			&lt;details id="details-facebook" open="open"&gt;
+				&lt;summary&gt;Facebook&lt;/summary&gt;
+				&lt;section class="wb-feeds limit-5"&gt;
+					&lt;h4 class="wb-inv"&gt;Facebook&lt;/h4&gt;
+					&lt;ul class="feeds-cont media-list"&gt;
+						&lt;li class="media"&gt;
+							&lt;a class="pull-left" href="https://www.facebook.com/feeds/page.php?id=318424514044&amp;amp;format=atom10"&gt;
+								&lt;img class="media-object" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/c17.17.207.207/430015_10151952323214045_194318965_n.png" alt="Enviroment Canada Logo" width="64" /&gt;
+							&lt;/a&gt;
+							&lt;section class="media-body"&gt;
+								&lt;h4 class="media-heading"&gt;&lt;a href="https://www.facebook.com/feeds/page.php?id=318424514044&amp;amp;format=atom10" rel="external"&gt;Enviroment Canada - Facebook&lt;/a&gt;&lt;/h4&gt;
+								&lt;p&gt;At Environment Canada our business is protecting the environment, conserving the country's natural heritage and providing weather and environmental predictions to keep Canadians informed and safe.&lt;/p&gt;
+							&lt;/section&gt;
+						&lt;/li&gt;
+						&lt;li class="media"&gt;
+							&lt;a class="pull-left" href="https://www.facebook.com/feeds/page.php?id=137563459593611&amp;amp;format=atom10"&gt;
+								&lt;img class="media-object" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/t1.0-1/p320x320/10245484_872682866081663_8340097330550277155_n.png" alt="Parks Canada Logo" width="64" /&gt;
+							&lt;/a&gt;
+							&lt;section class="media-body"&gt;
+								&lt;h4 class="media-heading"&gt;&lt;a href="https://www.facebook.com/feeds/page.php?id=137563459593611&amp;amp;format=atom10" rel="external"&gt;Parks Canada - Facebook&lt;/a&gt;&lt;/h4&gt;
+								&lt;p&gt;On behalf of the people of Canada, we protect and present nationally significant examples of Canada's natural and cultural heritage, and foster public understanding, appreciation and enjoyment in ways that ensure the ecological and commemorative integrity of these places for present and future generations.&lt;/p&gt;
+							&lt;/section&gt;
+						&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;div class="clearfix"&gt;&lt;/div&gt;
+				&lt;/section&gt;
+			&lt;/details&gt;
 
-		&lt;details id="details-flickr"&gt;
+			&lt;details id="details-flickr"&gt;
 				&lt;summary&gt;Flickr&lt;/summary&gt;
 				&lt;section class="wb-feeds limit-10"&gt;
 					&lt;h4 class="wb-inv"&gt;Flickr&lt;/h4&gt;
@@ -399,15 +477,15 @@
 <h2>Source code</h2>
 <p><a href="https://github.com/wet-boew/wet-boew/tree/master/src/plugins/feeds">Feeds widget source code on GitHub</a></p>
 </section>
-<div class="pagedetails">
+<div class="row pagedetails">
+<div class="col-xs-6 datemod">
 <dl id="wb-dtmd">
 <dt>Date modified:&#32;</dt>
 <dd><time property="dateModified">2014-08-04</time></dd>
 </dl>
-<div class="row">
-<div class="col-sm-6 col-md-5 col-lg-4">
-<a href="https://www.canada.ca/en/report-problem.html" class="btn btn-default btn-block">Report a problem on this page</a>
 </div>
+<div class="col-xs-6 text-right">
+<a href="http://www.canada.ca/en/contact/feedback.html" class="btn btn-default"><span class="glyphicon glyphicon-comment mrgn-rght-sm"></span>Feedback<span class="wb-inv"> about this web site</span></a>
 </div>
 </div>
 </main>
@@ -436,52 +514,90 @@
 <p>Brief description of the initiative, task or information being promoted.</p>
 </section>
 </div>
-</aside>
-<footer role="contentinfo" id="wb-info">
-<nav role="navigation" class="container wb-navcurr">
-<h2 class="wb-inv">About government</h2>
-<ul class="list-unstyled colcount-sm-2 colcount-md-3">
-<li><a href="https://www.canada.ca/en/contact.html">Contact us</a></li>
-<li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
-<li><a href="https://www.canada.ca/en/government/publicservice.html">Public service and military</a></li>
-<li><a href="https://www.canada.ca/en/news.html">News</a></li>
-<li><a href="https://www.canada.ca/en/government/system/laws.html">Treaties, laws and regulations</a></li>
-<li><a href="https://www.canada.ca/en/transparency/reporting.html">Government-wide reporting</a></li>
+</aside><footer role="contentinfo" id="wb-info">
+<nav role="navigation" class="container visible-sm visible-md visible-lg wb-navcurr">
+<h2 class="wb-inv">About this site</h2>
+<div class="row">
+<div class="col-sm-3 col-lg-3">
+<section>
+<h3>Contact information</h3>
+<ul class="list-unstyled">
+<li><a href="#">Link 1</a></li>
+<li><a href="#">Link 2</a></li>
+<li><a href="#">Link 3</a></li>
+</ul>
+</section>
+<section>
+<h3>News</h3>
+<ul class="list-unstyled">
+<li><a href="http://news.gc.ca/web/index-en.do">Newsroom</a></li>
+<li><a href="http://news.gc.ca/web/nwsprdct-en.do?mthd=tp&amp;crtr.tp1D=1">News releases</a></li>
+<li><a href="http://news.gc.ca/web/nwsprdct-en.do?mthd=tp&amp;crtr.tp1D=3">Media advisories</a></li>
+<li><a href="http://news.gc.ca/web/nwsprdct-en.do?mthd=tp&amp;crtr.tp1D=970">Speeches</a></li>
+<li><a href="http://news.gc.ca/web/nwsprdct-en.do?mthd=tp&amp;crtr.tp1D=980">Statements</a></li>
+</ul>
+</section>
+</div>
+<section class="col-sm-3 col-lg-3">
+<h3>Government</h3>
+<ul class="list-unstyled">
+<li><a href="http://www.canada.ca/en/gov/system">How government works</a></li>
+<li><a href="http://www.canada.ca/en/gov/dept">Departments & agencies</a></li>
 <li><a href="http://pm.gc.ca/eng">Prime Minister</a></li>
-<li><a href="https://www.canada.ca/en/government/system.html">How government works</a></li>
-<li><a href="http://open.canada.ca/en/">Open government</a></li>
-</ul> </nav>
+<li><a href="http://www.canada.ca/en/gov/ministers">Ministers</a></li>
+<li><a href="http://www.canada.ca/en/gov/publicservice">Public service & military</a></li>
+<li><a href="http://www.canada.ca/en/gov/policy">Policies, regulations & laws</a></li>
+<li><a href="http://www.canada.ca/en/gov/libraries">Libraries</a></li>
+<li><a href="http://www.canada.ca/en/gov/publications">Publications</a></li>
+<li><a href="http://www.canada.ca/en/gov/statistics">Statistics & data</a></li>
+<li><a href="http://www.canada.ca/en/newsite.html">About Canada.ca</a></li>
+</ul>
+</section>
+<section class="col-sm-3 col-lg-3 brdr-lft">
+<h3>Transparency</h3>
+<ul class="list-unstyled">
+<li><a href="http://www.canada.ca/en/transparency/reporting.html">Government-wide reporting</a></li>
+<li><a href="http://open.canada.ca/en">Open government</a></li>
+<li><a href="http://www.canada.ca/en/transparency/disclosure.html">Proactive disclosure</a></li>
+<li><a href="http://www.canada.ca/en/transparency/terms.html">Terms & conditions</a></li>
+<li><a href="http://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
+</ul>
+</section>
+<div class="col-sm-3 col-lg-3 brdr-lft">
+<section>
+<h3>Feedback</h3>
+<p><a href="http://www.canada.ca/en/contact/feedback.html"><img src="../../../assets/feedback.png" alt="Feedback about this Web site"></a></p>
+</section>
+<section>
+<h3>Social media</h3>
+<p><a href="http://www.canada.ca/en/social"><img src="../../../assets/social.png" alt="Social media"></a></p>
+</section>
+<section>
+<h3>Mobile centre</h3>
+<p><a href="http://www.canada.ca/en/mobile"><img src="../../../assets/mobile.png" alt="Mobile centre"></a></p>
+</section>
+</div>
+</div> </nav>
 <div class="brand">
 <div class="container">
 <div class="row">
-<nav class="col-md-9 col-lg-10 ftr-urlt-lnk">
-<h2 class="wb-inv">About this site</h2>
-<ul>
-<li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
-<li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
-<li><a href="https://www1.canada.ca/en/newsite.html">About Canada.ca</a></li>
-<li><a href="https://www.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
-<li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
-</ul>
-</nav>
 <div class="col-xs-6 visible-sm visible-xs tofpg">
 <a href="#wb-cont">Top of Page <span class="glyphicon glyphicon-chevron-up"></span></a>
 </div>
-<div class="col-xs-6 col-md-3 col-lg-2 text-right">
-<object type="image/svg+xml" tabindex="-1" role="img" data="../../../GCWeb/assets/wmms-blk.svg" aria-label="Symbol of the Government of Canada"></object>
+<div class="col-xs-6 col-md-12 text-right">
+<object type="image/svg+xml" tabindex="-1" role="img" data="../../../assets/wmms-blk.svg" aria-label="Symbol of the Government of Canada"></object>
 </div>
 </div>
 </div>
 </div>
 </footer>
 <!--[if gte IE 9 | !IE ]><!-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-<script src="../../../wet-boew/js/wet-boew.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="../../../js/wet-boew.min.js"></script>
 <!--<![endif]-->
 <!--[if lt IE 9]>
-		<script src="../../../wet-boew/js/ie8-wet-boew2.min.js"></script>
-		
+		<script src="../../../js/ie8-wet-boew2.min.js"></script>
 		<![endif]-->
-<script src="../../../GCWeb/js/theme.min.js"></script>
+<script src="../../../js/theme.min.js"></script>
 </body>
 </html>

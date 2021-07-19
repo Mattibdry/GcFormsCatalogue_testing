@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*
  * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
  * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
@@ -8,7 +7,8 @@
   .wb-wamethod ol li {
     border: 1px solid #ddd;
     border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
     list-style-type: none;
     margin: 15px 0; }
     .wb-wamethod ol li legend {

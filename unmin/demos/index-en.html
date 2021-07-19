@@ -13,27 +13,28 @@
 		<meta name="description" content="Web Experience Toolkit (WET) includes reusable components for building and maintaining innovative Web sites that are accessible, usable, and interoperable. These reusable components are open source software and free for use by departments and external Web communities" />
 		<!-- Meta data-->
 		<!--[if gte IE 9 | !IE ]><!-->
-		<link href="../../GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon" />
-		<link rel="stylesheet" href="../../GCWeb/css/theme.css" />
+		<link href="../assets/favicon.ico" rel="icon" type="image/x-icon" />
+		<link rel="stylesheet" href="../css/wet-boew.css" />
 		<!--<![endif]-->
+		<link rel="stylesheet" href="../css/theme.css" />
+		
 		
 		
 		
 		
 		<!--[if lt IE 9]>
-		<link href="../../GCWeb/assets/favicon.ico" rel="shortcut icon" />
+		<link href="../assets/favicon.ico" rel="shortcut icon" />
 		
-		<link rel="stylesheet" href="../../GCWeb/css/ie8-theme.css" />
+		<link rel="stylesheet" href="../css/ie8-wet-boew.css" />
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
-		<script src="../../wet-boew/js/ie8-wet-boew.js"></script>
+		<script src="../js/ie8-wet-boew.js"></script>
 		<![endif]-->
 		<!--[if lte IE 9]>
 		
 		
 		<![endif]-->
 		
-		<noscript><link rel="stylesheet" href="../../wet-boew/css/noscript.css" /></noscript>
-		
+		<noscript><link rel="stylesheet" href="../css/noscript.css" /></noscript>
 		<!-- Google Tag Manager DO NOT REMOVE OR MODIFY - NE PAS SUPPRIMER OU MODIFIER -->
 		<script>dataLayer1 = [];</script>
 		<!-- End Google Tag Manager -->
@@ -48,74 +49,73 @@
 	<li class="wb-slc">
 		<a class="wb-sl" href="#wb-cont">Skip to main content</a>
 	</li>
-	<li class="wb-slc">
-		<a class="wb-sl" href="#wb-info">Skip to "About government"</a>
+	<li class="wb-slc visible-sm visible-md visible-lg">
+		<a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
 	</li>
-</ul><header role="banner">
+</ul>
+<header role="banner">
 	<div id="wb-bnr" class="container">
-	<section id="wb-lng" class="visible-md visible-lg text-right">
-		<h2 class="wb-inv">Language selection</h2>
-		<div class="row">
-			<div class="col-md-12">
-				<ul class="list-inline margin-bottom-none">
-					<li><a lang="fr" href="index-fr.html">Français</a></li>
-				</ul>
+		<section id="wb-lng" class="visible-md visible-lg text-right">
+			<h2 class="wb-inv">Language selection</h2>
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="list-inline margin-bottom-none">
+						<li><a lang="fr" href="index-fr.html">Français</a></li>
+					</ul>
+				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 		<div class="row">
 				<div class="brand col-xs-8 col-sm-9 col-md-6">
-					<a href="https://www.canada.ca/en.html"><object type="image/svg+xml" tabindex="-1" data="../../GCWeb/assets/sig-blk-en.svg"></object><span class="wb-inv"> Government of Canada / <span lang="fr">Gouvernement du Canada</span></span></a>
+					<a href="http://www.canada.ca/en/index.html"><object type="image/svg+xml" tabindex="-1" data="../assets/sig-blk-en.svg"></object><span class="wb-inv"> Government of Canada</span></a>
 				</div>
-	<section class="wb-mb-links col-xs-4 col-sm-3 visible-sm visible-xs" id="wb-glb-mn">
-		<h2>Search and menus</h2>
-		<ul class="list-inline text-right chvrn">
-			<li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
-		</ul>
-		<div id="mb-pnl"></div>
-	</section>
-	<section id="wb-srch" class="col-xs-6 text-right visible-md visible-lg">
-		<h2>Search</h2>
-		<form action="#" method="post" name="cse-search-box" role="search" class="form-inline">
-			<div class="form-group">
-				<label for="wb-srch-q" class="wb-inv">Search website</label>
-				<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="27" maxlength="150" placeholder="Search Canada.ca" />
-				<datalist id="wb-srch-q-ac">
-					<!--[if lte IE 9]><select><![endif]-->
-					<!--[if lte IE 9]></select><![endif]-->
-				</datalist>
-			</div>
-			<div class="form-group submit">
-				<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
-			</div>
-		</form>
-	</section>
+			<section class="wb-mb-links col-xs-4 col-sm-3 visible-sm visible-xs" id="wb-glb-mn" >
+				<h2>Search and menus</h2>
+				<ul class="list-inline text-right chvrn">
+					<li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
+				</ul>
+				<div id="mb-pnl"></div>
+			</section>
+			<section id="wb-srch" class="col-xs-6 text-right visible-md visible-lg">
+				<h2 class="wb-inv">Search</h2>
+				<form action="#" method="post" name="cse-search-box" role="search" class="form-inline">
+					<div class="form-group">
+						<label for="wb-srch-q" class="wb-inv">Search website</label>
+						<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="27" maxlength="150" placeholder="Search Canada.ca" />
+						<datalist id="wb-srch-q-ac">
+							<!--[if lte IE 9]><select><![endif]-->
+							<!--[if lte IE 9]></select><![endif]-->
+						</datalist>
+					</div>
+					<div class="form-group submit">
+						<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
+					</div>
+				</form>			</section>
 		</div>
 	</div>
-	<nav role="navigation" id="wb-sm" data-ajax-replace="../ajax/sitemenu-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+	<nav role="navigation" id="wb-sm" class="wb-menu visible-md visible-lg" data-trgt="mb-pnl" data-ajax-fetch="../ajax/sitemenu-en.html" typeof="SiteNavigationElement">
+		<h2 class="wb-inv">Topics menu</h2>
 		<div class="container nvbar">
-			<h2>Topics menu</h2>
-			<div class="row">
-				<ul class="list-inline menu">
-					<li><a href="https://www.canada.ca/en/services/jobs.html">Jobs</a></li>
-					<li><a href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration</a></li>
-					<li><a href="https://travel.gc.ca/">Travel</a></li>
-					<li><a href="https://www.canada.ca/en/services/business.html">Business</a></li>
-					<li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
-					<li><a href="https://www.canada.ca/en/services/health.html">Health</a></li>
-					<li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
-					<li><a href="https://www.canada.ca/en/services.html">More services</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<nav role="navigation" id="wb-bc" property="breadcrumb">
-		<h2>You are here:</h2>
+		    <div class="row">
+		        <ul class="list-inline menu">
+		            <li><a href="http://www.esdc.gc.ca/en/jobs/index.page">Jobs</a></li>
+		            <li><a href="http://www.cic.gc.ca/english/index.asp">Immigration</a></li>
+		            <li><a href="http://travel.gc.ca">Travel</a></li>
+		            <li><a href="http://www.canada.ca/en/services/business/index.html">Business</a></li>
+		            <li><a href="http://www.canada.ca/en/services/benefits/index.html">Benefits</a></li>
+		            <li><a href="http://healthycanadians.gc.ca/index-eng.php">Health</a></li>
+		            <li><a href="http://www.canada.ca/en/services/taxes/index.html">Taxes</a></li>
+		            <li><a href="http://www.canada.ca/en/services/index.html">More services</a></li>
+		        </ul>
+		    </div>
+		</div>	</nav>
+	<nav role="navigation" id="wb-bc" class="" property="breadcrumb">
+		<h2 class="wb-inv">You are here:</h2>
 		<div class="container">
 			<div class="row">
 				<ol class="breadcrumb">
 					<li>
-						<a href="http://wet-boew.github.io/wet-boew/index-en.html">Home</a>
+						<a href="/index-en.html">Home</a>
 					</li>
 					<li>Working examples</li>
 				</ol>
@@ -123,13 +123,7 @@
 		</div>
 	</nav>
 </header>
-<main role="main" property="mainContentOfPage" class="container
-
-
-
-
-
-">
+<main role="main" property="mainContentOfPage" class="container">
 			<h1 property="name" id="wb-cont">Working examples</h1>
 			
 			
@@ -144,15 +138,15 @@
 	</thead>
 	<tbody>
 					<tr>
-						<td><a href="../docs/ref/archived/archived-en.html">ARCHIVED - Archiving content</a></td>
+						<td><a href="archived/archived-en.html">ARCHIVED - Archived information</a></td>
 						<td><a href="../docs/ref/other-en.html">Other</a></td>
 						<td>Helps users identify Web pages that have been archived online.</td>
-						<td></td>
+						<td>archived</td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/arb-rra/arb-rra-en.html">Accessibility responsibility breakdown (WCAG 2.0)</a></td>
+						<td><a href="archived/archived-en.html">ARCHIVED - Archiving content</a></td>
 						<td><a href="../docs/ref/other-en.html">Other</a></td>
-						<td>Provides a breakdown of WCAG 2.0 accessibility responsibilities throughout the Web production chain.</td>
+						<td>Helps users identify Web pages that have been archived online.</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -162,15 +156,9 @@
 						<td>arb-rra</td>
 					</tr>
 					<tr>
-						<td><a href="archived/archived-en.html">Archived - Archived information</a></td>
+						<td><a href="arb-rra/arb-rra-en.html">Accessibility responsibility breakdown (WCAG 2.0)</a></td>
 						<td><a href="../docs/ref/other-en.html">Other</a></td>
-						<td>Helps users identify Web pages that have been archived online.</td>
-						<td>archived</td>
-					</tr>
-					<tr>
-						<td><a href="../docs/ref/cal-events/cal-events-en.html">Calendar of Events</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Dynamically generates a calendar interface for navigating a list of events.</td>
+						<td>Provides a breakdown of WCAG 2.0 accessibility responsibilities throughout the Web production chain.</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -180,13 +168,19 @@
 						<td>cal-events</td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/GCWeb/GCWeb-en.html">Canada.ca theme</a></td>
+						<td><a href="cal-events/cal-events-en.html">Calendar of Events</a></td>
+						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
+						<td>Dynamically generates a calendar interface for navigating a list of events.</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><a href="GCWeb/GCWeb-en.html">Canada.ca theme</a></td>
 						<td><a href="../docs/ref/-en.html">Themes</a></td>
 						<td>This theme implements the layout and design requirements for Canada.ca.</td>
 						<td></td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/charts/charts-en.html">Charts and graphs</a></td>
+						<td><a href="charts/charts-en.html">Charts and graphs</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
 						<td>Dynamically generates charts and graphs from table data.</td>
 						<td></td>
@@ -222,15 +216,27 @@
 						<td>charts</td>
 					</tr>
 					<tr>
+						<td><a href="charts/functionandnumbers-en.html">Charts and graphs - Thousands separator and custom preset functions</a></td>
+						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
+						<td>How to configure the thousands separator and use your own function in a preset.</td>
+						<td>charts</td>
+					</tr>
+					<tr>
 						<td><a href="collapsible-alerts/collapsible-alerts-en.html">Collapsible alerts</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
 						<td>Make alerts collapsible by users</td>
 						<td>collapsible-alerts</td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/collapsible-alerts/collapsible-alerts-en.html">Collapsible alerts</a></td>
+						<td><a href="collapsible-alerts/collapsible-alerts-en.html">Collapsible alerts</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
 						<td>Make alerts collapsible by users.</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><a href="country-content/country-content-en.html">Country Content</a></td>
+						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
+						<td>A basic AjaxLoader wrapper that inserts AJAXed-in content based on a visitor&#x27;s country as determined by http://freegeoip.net</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -240,25 +246,19 @@
 						<td>country-content</td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/country-content/country-content-en.html">Country Content</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>A basic AjaxLoader wrapper that inserts AJAXed-in content based on a visitor&#x27;s country as determined by http://freegeoip.net</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td><a href="../docs/ref/data-ajax/data-ajax-en.html">Data Ajax</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>A basic AjaxLoader wrapper that inserts AJAXed-in content.</td>
-						<td></td>
-					</tr>
-					<tr>
 						<td><a href="data-ajax/data-ajax-en.html">Data Ajax</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
 						<td>A basic AjaxLoader wrapper that inserts AJAXed-in content.</td>
 						<td>data-ajax</td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/data-inview/data-inview-en.html">Data Inview</a></td>
+						<td><a href="data-ajax/data-ajax-en.html">Data Ajax</a></td>
+						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
+						<td>A basic AjaxLoader wrapper that inserts AJAXed-in content.</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><a href="data-inview/data-inview-en.html">Data Inview</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
 						<td>Displays an overlay when a section moves out of the viewport.</td>
 						<td></td>
@@ -270,19 +270,7 @@
 						<td>data-inview</td>
 					</tr>
 					<tr>
-						<td><a href="data-json/data-json-en.html">Data JSON</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Insert content extracted from a JSON file.</td>
-						<td>data-json</td>
-					</tr>
-					<tr>
-						<td><a href="data-json/data-json-doc-en.html">Data JSON - Documentation</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Insert content extracted from a JSON file and leverage HTML 5 template element.</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td><a href="../docs/ref/data-picture/data-picture-en.html">Data Picture</a></td>
+						<td><a href="data-picture/data-picture-en.html">Data Picture</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
 						<td>Allow a web page to specify different image sources to display based on media queries. The component is an event driven port of Picturefill.</td>
 						<td></td>
@@ -300,7 +288,7 @@
 						<td>datalist</td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/datalist/datalist-en.html">Datalist polyfill (auto-complete)</a></td>
+						<td><a href="datalist/datalist-en.html">Datalist polyfill (auto-complete)</a></td>
 						<td><a href="../docs/ref/polyfills-en.html">Polyfills</a></td>
 						<td>Emulates input list attribute and datalist element support for browsers that do not have support. This adds auto-complete functionality to specific input fields by dynamically displaying a list of words that match the datalist.</td>
 						<td></td>
@@ -312,43 +300,19 @@
 						<td>datalist</td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/details/details-en.html">Details/summary polyfill (expandable/collapsible content)</a></td>
-						<td><a href="../docs/ref/polyfills-en.html">Polyfills</a></td>
-						<td>Emulates details and summary element support for browsers that do not have support. The details and summary elements allows content to be expanded and collapsed.</td>
-						<td></td>
-					</tr>
-					<tr>
 						<td><a href="details/details-en.html">Details/summary polyfill (expandable/collapsible content)</a></td>
 						<td><a href="../docs/ref/polyfills-en.html">Polyfills</a></td>
 						<td>Emulates details and summary element support for browsers that do not have support. The details and summary elements allows content to be expanded and collapsed.</td>
 						<td>details</td>
 					</tr>
 					<tr>
-						<td><a href="dismissable-content/dismissable-content-en.html">Dismissable content</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Make content dismissable by users.</td>
-						<td>dismissable-content</td>
-					</tr>
-					<tr>
-						<td><a href="../docs/ref/dismissable-content/dismissable-content-en.html">Dismissable content</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Make content dismissable by users.</td>
+						<td><a href="details/details-en.html">Details/summary polyfill (expandable/collapsible content)</a></td>
+						<td><a href="../docs/ref/polyfills-en.html">Polyfills</a></td>
+						<td>Emulates details and summary element support for browsers that do not have support. The details and summary elements allows content to be expanded and collapsed.</td>
 						<td></td>
 					</tr>
 					<tr>
-						<td><a href="doaction/doaction-doc-en.html">Do action - Documentation</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Execute action, like filter a table, based on pre-established set of configuration.</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td><a href="doaction/tblfilter-en.html">Do action - Table filtering</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Execute action, like filter a table, based on pre-established set of configuration.</td>
-						<td>doaction</td>
-					</tr>
-					<tr>
-						<td><a href="../docs/ref/equalheight/equalheight-en.html">Equal height</a></td>
+						<td><a href="equalheight/equalheight-en.html">Equal height</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
 						<td>A plugin for responsive equal height.</td>
 						<td></td>
@@ -360,19 +324,7 @@
 						<td>equalheight</td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/facebook/facebook-en.html">Facebook embedded pages</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Helps with implementing Facebook embedded pages.</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td><a href="facebook/facebook-en.html">Facebook embedded pages</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Helps with implementing Facebook embedded pages.</td>
-						<td>facebook</td>
-					</tr>
-					<tr>
-						<td><a href="../docs/ref/favicon/favicon-en.html">Favicon</a></td>
+						<td><a href="favicon/favicon-en.html">Favicon</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
 						<td>This plugin provides the ability to add and update a web page&#x27;s favicon.</td>
 						<td></td>
@@ -387,19 +339,13 @@
 						<td><a href="feedback/feedback-en.html">Feedback form</a></td>
 						<td><a href="../docs/ref/other-en.html">Other</a></td>
 						<td>Allows users to submit feedback for a specific Web page or Web site.</td>
-						<td>feedback</td>
+						<td></td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/feedback/feedback-en.html">Feedback form</a></td>
+						<td><a href="feedback/feedback-en.html">Feedback form</a></td>
 						<td><a href="../docs/ref/other-en.html">Other</a></td>
 						<td>Allows users to submit feedback for a specific Web page or Web site.</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td><a href="../docs/ref/feeds/feeds-en.html">Feeds</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Aggregates and displays entries from one or more Web feeds.</td>
-						<td></td>
+						<td>feedback</td>
 					</tr>
 					<tr>
 						<td><a href="feeds/feeds-en.html">Feeds</a></td>
@@ -408,45 +354,9 @@
 						<td>feeds</td>
 					</tr>
 					<tr>
-						<td><a href="fieldflow/fieldflow-en.html">Field flow</a></td>
+						<td><a href="feeds/feeds-en.html">Feeds</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Transform a basic list into a selectable list.</td>
-						<td>fieldflow</td>
-					</tr>
-					<tr>
-						<td><a href="fieldflow/fieldflow-doc-en.html">Field flow - Documentation</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Transform a basic list into a drop down.</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td><a href="fieldflow/advanced-en.html">Field flow advanced</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>How to go beyond with field flow.</td>
-						<td>fieldflow</td>
-					</tr>
-					<tr>
-						<td><a href="fieldflow/basic-en.html">Field flow basic configuration</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>How to use field flow to create small scale user interaction.</td>
-						<td>fieldflow</td>
-					</tr>
-					<tr>
-						<td><a href="filter/filter-en.html">Filter</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Filters through content and only show content that match a certain keyword.</td>
-						<td>filter</td>
-					</tr>
-					<tr>
-						<td><a href="../docs/ref/filter/filter-en.html">Filter</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Filters through content and only show content that match a certain keyword.</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td><a href="../docs/ref/footnotes/footnotes-en.html">Footnotes</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Provides a consistent, accessible way of handling footnotes across websites.</td>
+						<td>Aggregates and displays entries from one or more Web feeds.</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -456,9 +366,9 @@
 						<td>footnotes</td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/formvalid/formvalid-en.html">Form validation</a></td>
+						<td><a href="footnotes/footnotes-en.html">Footnotes</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Provides generic validation and error message handling for Web forms.</td>
+						<td>Provides a consistent, accessible way of handling footnotes across websites.</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -468,63 +378,51 @@
 						<td>formvalid</td>
 					</tr>
 					<tr>
+						<td><a href="formvalid/formvalid-en.html">Form validation</a></td>
+						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
+						<td>Provides generic validation and error message handling for Web forms.</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><a href="geomap/geomap-en.html">Geomap</a></td>
+						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
+						<td>Displays a dynamic map over which information from additional sources can be overlaid.</td>
+						<td></td>
+					</tr>
+					<tr>
 						<td><a href="geomap/geomap-en.html">Geomap</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
 						<td>Displays a dynamic map over which information from additional sources can be overlaid.</td>
 						<td>geomap</td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/geomap/geomap-en.html">Geomap</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Displays a dynamic map over which information from additional sources can be overlaid.</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td><a href="../docs/ref/helloworld/helloworld-en.html">Hello world</a></td>
-						<td><a href="../docs/ref/other-en.html">Other</a></td>
-						<td>A quick tutorial on how you can create your own WET plugin.</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td><a href="helloworld/helloworld-en.html">Hello world plugin example</a></td>
-						<td><a href="../docs/ref/other-en.html">Other</a></td>
-						<td>A quick tutorial on how you can create your own WET plugin.</td>
-						<td>helloworld</td>
-					</tr>
-					<tr>
-						<td><a href="../docs/ref/datepicker/datepicker-en.html">Input type&#x3D;&quot;date&quot; polyfill (date picker)</a></td>
+						<td><a href="datepicker/datepicker-en.html">Input type=&quot;date&quot; polyfill (date picker)</a></td>
 						<td><a href="../docs/ref/polyfills-en.html">Polyfills</a></td>
-						<td>Emulates &lt;input type&#x3D;&quot;date&quot;&gt; support for browsers that do not have support. This dynamically generates a calendar interface for selecting a date in a form.</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td><a href="datepicker/datepicker-en.html">Input type&#x3D;&quot;date&quot; polyfill (date picker)</a></td>
-						<td><a href="../docs/ref/polyfills-en.html">Polyfills</a></td>
-						<td>Emulates &lt;input type&#x3D;&quot;date&quot;&gt; support for browsers that do not have support. This dynamically generates a calendar interface for selecting a date in a form.</td>
+						<td>Emulates &lt;input type=&quot;date&quot;&gt; support for browsers that do not have support. This dynamically generates a calendar interface for selecting a date in a form.</td>
 						<td>datepicker</td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/slider/slider-en.html">Input type&#x3D;&quot;range&quot; polyfill (slider control)</a></td>
+						<td><a href="datepicker/datepicker-en.html">Input type=&quot;date&quot; polyfill (date picker)</a></td>
 						<td><a href="../docs/ref/polyfills-en.html">Polyfills</a></td>
-						<td>Emulates &lt;input type&#x3D;&quot;range&quot;&gt; support for browsers that do not have support. The &lt;input type&#x3D;&quot;range&quot;&gt; element displays a slider control bar.</td>
+						<td>Emulates &lt;input type=&quot;date&quot;&gt; support for browsers that do not have support. This dynamically generates a calendar interface for selecting a date in a form.</td>
 						<td></td>
 					</tr>
 					<tr>
-						<td><a href="slider/slider-en.html">Input type&#x3D;&quot;range&quot; polyfill (slider control)</a></td>
+						<td><a href="slider/slider-en.html">Input type=&quot;range&quot; polyfill (slider control)</a></td>
 						<td><a href="../docs/ref/polyfills-en.html">Polyfills</a></td>
-						<td>Emulates &lt;input type&#x3D;&quot;range&quot;&gt; support for browsers that do not have support. The &lt;input type&#x3D;&quot;range&quot;&gt; element displays a slider control bar.</td>
+						<td>Emulates &lt;input type=&quot;range&quot;&gt; support for browsers that do not have support. The &lt;input type=&quot;range&quot;&gt; element displays a slider control bar.</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><a href="slider/slider-en.html">Input type=&quot;range&quot; polyfill (slider control)</a></td>
+						<td><a href="../docs/ref/polyfills-en.html">Polyfills</a></td>
+						<td>Emulates &lt;input type=&quot;range&quot;&gt; support for browsers that do not have support. The &lt;input type=&quot;range&quot;&gt; element displays a slider control bar.</td>
 						<td>slider</td>
 					</tr>
 					<tr>
-						<td><a href="jsonmanager/jsonmanager-en.html">JSON Manager</a></td>
+						<td><a href="lightbox/lightbox-en.html">Lightbox</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Manage dataset and apply JSON Patch</td>
-						<td>jsonmanager</td>
-					</tr>
-					<tr>
-						<td><a href="jsonmanager/jsonmanager-doc-en.html">JSON Manager - Documentation</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Manage dataset and apply JSON Patch</td>
+						<td>Display images and other content in a dialog box, either individually or as part of a gallery.</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -534,9 +432,9 @@
 						<td>lightbox</td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/lightbox/lightbox-en.html">Lightbox</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Display images and other content in a dialog box, either individually or as part of a gallery.</td>
+						<td><a href="mathml/mathml-en.html">MathML polyfill</a></td>
+						<td><a href="../docs/ref/polyfills-en.html">Polyfills</a></td>
+						<td>Emulates MathML support for browsers that do not have native MathML support.</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -546,27 +444,15 @@
 						<td>mathml</td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/mathml/mathml-en.html">MathML polyfill</a></td>
-						<td><a href="../docs/ref/polyfills-en.html">Polyfills</a></td>
-						<td>Emulates MathML support for browsers that do not have native MathML support.</td>
-						<td></td>
-					</tr>
-					<tr>
 						<td><a href="menu/menu-en.html">Menu</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
 						<td>Provides an interactive menu with optional sub-menus.</td>
 						<td>menu</td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/menu/menu-en.html">Menu</a></td>
+						<td><a href="menu/menu-en.html">Menu</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
 						<td>Provides an interactive menu with optional sub-menus.</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td><a href="../docs/ref/meter/meter-en.html">Meter polyfill</a></td>
-						<td><a href="../docs/ref/polyfills-en.html">Polyfills</a></td>
-						<td>Emulates meter element support for browsers that do not have support. The meter element displays a scalar measurement in a known range.</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -576,7 +462,13 @@
 						<td>meter</td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/multimedia/multimedia-en.html">Multimedia Player</a></td>
+						<td><a href="meter/meter-en.html">Meter polyfill</a></td>
+						<td><a href="../docs/ref/polyfills-en.html">Polyfills</a></td>
+						<td>Emulates meter element support for browsers that do not have support. The meter element displays a scalar measurement in a known range.</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><a href="multimedia/multimedia-en.html">Multimedia Player</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
 						<td>Provides an accessible multimedia player for embedding video and audio into web pages.</td>
 						<td></td>
@@ -603,19 +495,13 @@
 						<td><a href="overlay/overlay-en.html">Overlay</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
 						<td>A flexible, responsive overlay plugin.</td>
-						<td>overlay</td>
+						<td></td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/overlay/overlay-en.html">Overlay</a></td>
+						<td><a href="overlay/overlay-en.html">Overlay</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
 						<td>A flexible, responsive overlay plugin.</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td><a href="../docs/ref/prettify/prettify-en.html">Prettify</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Provides syntax highlighting of source code snippets in an HTML page using google-code-prettify.</td>
-						<td></td>
+						<td>overlay</td>
 					</tr>
 					<tr>
 						<td><a href="prettify/prettify-en.html">Prettify</a></td>
@@ -624,19 +510,25 @@
 						<td>prettify</td>
 					</tr>
 					<tr>
+						<td><a href="prettify/prettify-en.html">Prettify</a></td>
+						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
+						<td>Provides syntax highlighting of source code snippets in an HTML page using google-code-prettify.</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><a href="progress/progress-en.html">Progress polyfill (progress bar)</a></td>
+						<td><a href="../docs/ref/polyfills-en.html">Polyfills</a></td>
+						<td>Emulates progress element support for browsers that do not have support. The progress element displays the progress of a task.</td>
+						<td></td>
+					</tr>
+					<tr>
 						<td><a href="progress/progress-en.html">Progress polyfill (progress bar)</a></td>
 						<td><a href="../docs/ref/polyfills-en.html">Polyfills</a></td>
 						<td>Emulates progress element support for browsers that do not have support. The progress element displays the progress of a task.</td>
 						<td>progress</td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/progress/progress-en.html">Progress polyfill (progress bar)</a></td>
-						<td><a href="../docs/ref/polyfills-en.html">Polyfills</a></td>
-						<td>Emulates progress element support for browsers that do not have support. The progress element displays the progress of a task.</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td><a href="../docs/ref/session-timeout/session-timeout-en.html">Session Timeout</a></td>
+						<td><a href="session-timeout/session-timeout-en.html">Session Timeout</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
 						<td>Create a session inactivity timeout that warns users when their session is about to expire.</td>
 						<td></td>
@@ -651,13 +543,13 @@
 						<td><a href="share/share-en.html">Share widget</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
 						<td>Facilitates sharing Web content on social media platforms.</td>
-						<td>share</td>
+						<td></td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/share/share-en.html">Share widget</a></td>
+						<td><a href="share/share-en.html">Share widget</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
 						<td>Facilitates sharing Web content on social media platforms.</td>
-						<td></td>
+						<td>share</td>
 					</tr>
 					<tr>
 						<td><a href="tabs/tabs-en.html">Tabbed Interface</a></td>
@@ -666,7 +558,7 @@
 						<td>tabs</td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/tabs/tabs-en.html">Tabbed Interface</a></td>
+						<td><a href="tabs/tabs-en.html">Tabbed Interface</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
 						<td>Dynamically stacks multiple sections of content, transforming them into a tabbed interface.</td>
 						<td></td>
@@ -684,15 +576,9 @@
 						<td>tablevalidator</td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/tablevalidator/tablevalidator-en.html">Table Validator</a></td>
+						<td><a href="tablevalidator/tablevalidator-en.html">Table Validator</a></td>
 						<td><a href="../docs/ref/other-en.html">Other</a></td>
 						<td>Web editor tool that helps to produce tables that conform to WCAG 2.0</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td><a href="../docs/ref/tables/tables-en.html">Tables</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Integrates the DataTables plugin into WET providing searching, sorting, filtering, pagination and other advanced features for tables.</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -702,22 +588,22 @@
 						<td>tables</td>
 					</tr>
 					<tr>
-						<td><a href="data-json/template-en.html">Template HTML 5</a></td>
+						<td><a href="tables/tables-en.html">Tables</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Leverage HTML 5 template element by using the data json plugin.</td>
-						<td>data-json</td>
+						<td>Integrates the DataTables plugin into WET providing searching, sorting, filtering, pagination and other advanced features for tables.</td>
+						<td></td>
 					</tr>
 					<tr>
-						<td><a href="texthighlight/texthighlight-en.html?txthl&#x3D;avian%20influenza+world+cook+flu-like%20symptoms+Don&#x27;t%20Forget...+causes%20sickness%20in%20birds,%20it%20can%20also%20infect%20people.">Text highlighting</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Automatically highlights certain words on a Web page. The highlighted words can be selected via the query string.</td>
-						<td>texthighlight</td>
-					</tr>
-					<tr>
-						<td><a href="../docs/ref/texthighlight/texthighlight-en.html">Text highlighting</a></td>
+						<td><a href="texthighlight/texthighlight-en.html">Text highlighting</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
 						<td>Automatically highlights certain words on a Web page. The highlighted words can be selected via the query string.</td>
 						<td></td>
+					</tr>
+					<tr>
+						<td><a href="texthighlight/texthighlight-en.html?txthl=avian%20influenza+world+cook+flu-like%20symptoms+Don&#x27;t%20Forget...+causes%20sickness%20in%20birds,%20it%20can%20also%20infect%20people.">Text highlighting</a></td>
+						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
+						<td>Automatically highlights certain words on a Web page. The highlighted words can be selected via the query string.</td>
+						<td>texthighlight</td>
 					</tr>
 					<tr>
 						<td><a href="toggle/toggle-en.html">Toggle</a></td>
@@ -726,7 +612,7 @@
 						<td>toggle</td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/toggle/toggle-en.html">Toggle</a></td>
+						<td><a href="toggle/toggle-en.html">Toggle</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
 						<td>Allows an element to toggle elements between on and off states.</td>
 						<td></td>
@@ -738,7 +624,7 @@
 						<td>transitions</td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/transitions/transitions-en.html">Transitions</a></td>
+						<td><a href="transitions/transitions-en.html">Transitions</a></td>
 						<td><a href="../docs/ref/other-en.html">Other</a></td>
 						<td>CSS-based transitions</td>
 						<td></td>
@@ -750,37 +636,13 @@
 						<td>twitter</td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/twitter/twitter-en.html">Twitter embedded timeline</a></td>
+						<td><a href="twitter/twitter-en.html">Twitter embedded timeline</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
 						<td>Helps with implementing Twitter embedded timelines.</td>
 						<td></td>
 					</tr>
 					<tr>
-						<td><a href="urlmapping/ajax-en.html">URL Mapping - Ajax</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Execute pre-configured ajax action based on url query string.</td>
-						<td>urlmapping</td>
-					</tr>
-					<tr>
-						<td><a href="urlmapping/patches-en.html">URL Mapping - Patching JSON</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Execute pre-configured patches action based on url query string.</td>
-						<td>urlmapping</td>
-					</tr>
-					<tr>
-						<td><a href="urlmapping/tblfilter-en.html">URL Mapping - Table filtering</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Execute pre-configured table filtering action based on url query string.</td>
-						<td>urlmapping</td>
-					</tr>
-					<tr>
-						<td><a href="urlmapping/urlmapping-doc-en.html">URL mapping - Documentation</a></td>
-						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
-						<td>Execute pre-configured action based on url query string.</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td><a href="../docs/ref/wamethod/wamethod-en.html">Web Accessibility Assessment Methodology</a></td>
+						<td><a href="wamethod/wamethod-en.html">Web Accessibility Assessment Methodology</a></td>
 						<td><a href="../docs/ref/other-en.html">Other</a></td>
 						<td>Provides an assessment methodology that assists with measuring conformance to the Web Content Accessibility Guidelines (WCAG) 2.0 Level A, AA and AAA Success Criteria.</td>
 						<td></td>
@@ -798,13 +660,13 @@
 						<td>wamethod</td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/theme-wet-boew/theme-wet-boew-en.html">Web Experience Toolkit (WET) theme</a></td>
+						<td><a href="theme-wet-boew/theme-wet-boew-en.html">Web Experience Toolkit (WET) theme</a></td>
 						<td><a href="../docs/ref/-en.html">Themes</a></td>
 						<td>This theme provides an example implementation of the Base Theme.</td>
 						<td></td>
 					</tr>
 					<tr>
-						<td><a href="../docs/ref/zebra/zebra-en.html">Zebra Stripping</a></td>
+						<td><a href="zebra/zebra-en.html">Zebra Stripping</a></td>
 						<td><a href="../docs/ref/plugins-en.html">Plugins</a></td>
 						<td>Zebra Stripping for table</td>
 						<td></td>
@@ -863,80 +725,20 @@
 				<td>Adapts WET for use with WordPress.</td>
 				<td>wordpress</td>
 			</tr>
-		<tr>
-			<td><a href="http://wet-boew.github.io/themes-dist/GCWeb/demos/data-json/data-json-en.html">Data JSON</a></td>
-			<td><a href="http://wet-boew.github.io/themes-dist/GCWeb/index-en.html">Canada.ca theme plugins</a></td>
-			<td>Insert content extracted from a JSON file and leverage HTML 5 template element. (<a href="http://wet-boew.github.io/themes-dist/GCWeb/demos/data-json/data-json-doc-en.html">Documentation</a>)</td>
-			<td>gcweb/data-json</td>
-		</tr>
-		<tr>
-			<td><a href="http://wet-boew.github.io/themes-dist/GCWeb/demos/doaction/tblfilter-en.html">Do action</a></td>
-			<td><a href="http://wet-boew.github.io/themes-dist/GCWeb/index-en.html">Canada.ca theme plugins</a></td>
-			<td>Execute action, like filter a table, based on pre-established set of configuration. (<a href="http://wet-boew.github.io/themes-dist/GCWeb/demos/doaction/doaction-doc-en.html">Documentation</a>)</td>
-			<td>gcweb/doaction</td>
-		</tr>
-		<tr>
-			<td><a href="http://wet-boew.github.io/themes-dist/GCWeb/demos/fieldflow/fieldflow-en.html">Field flow</a></td>
-			<td><a href="http://wet-boew.github.io/themes-dist/GCWeb/index-en.html">Canada.ca theme plugins</a></td>
-			<td>Transform a basic list into a selectable list. (<a href="http://wet-boew.github.io/themes-dist/GCWeb/demos/fieldflow/fieldflow-doc-en.html">Documentation</a>)</td>
-			<td>gcweb/fieldflow</td>
-		</tr>
-		<tr>
-			<td><a href="http://wet-boew.github.io/themes-dist/GCWeb/demos/fieldflow/advanced-en.html">Field flow advanced</a></td>
-			<td><a href="http://wet-boew.github.io/themes-dist/GCWeb/index-en.html">Canada.ca theme plugins</a></td>
-			<td>How to go beyond with field flow. (<a href="http://wet-boew.github.io/themes-dist/GCWeb/demos/fieldflow/fieldflow-doc-en.html">Documentation</a>)</td>
-			<td>gcweb/fieldflow</td>
-		</tr>
-		<tr>
-			<td><a href="http://wet-boew.github.io/themes-dist/GCWeb/demos/fieldflow/basic-en.html">Field flow basic configuration</a></td>
-			<td><a href="http://wet-boew.github.io/themes-dist/GCWeb/index-en.html">Canada.ca theme plugins</a></td>
-			<td>How to use field flow to create small scale user interaction. (<a href="http://wet-boew.github.io/themes-dist/GCWeb/demos/fieldflow/fieldflow-doc-en.html">Documentation</a>)</td>
-			<td>gcweb/fieldflow</td>
-		</tr>
-		<tr>
-			<td><a href="http://wet-boew.github.io/themes-dist/GCWeb/demos/jsonmanager/jsonmanager-en.html">JSON Manager</a></td>
-			<td><a href="http://wet-boew.github.io/themes-dist/GCWeb/index-en.html">Canada.ca theme plugins</a></td>
-			<td>Manage dataset and apply JSON Patch. (<a href="http://wet-boew.github.io/themes-dist/GCWeb/demos/jsonmanager/jsonmanager-doc-en.html">Documentation</a>)</td>
-			<td>gcweb/jsonmanager</td>
-		</tr>
-		<tr>
-			<td><a href="http://wet-boew.github.io/themes-dist/GCWeb/demos/data-json/template-en.html">Template HTML 5</a></td>
-			<td><a href="http://wet-boew.github.io/themes-dist/GCWeb/index-en.html">Canada.ca theme plugins</a></td>
-			<td>Leverage HTML 5 template element by using the data json plugin. (<a href="http://wet-boew.github.io/themes-dist/GCWeb/demos/data-json/data-json-doc-en.html">Documentation</a>)</td>
-			<td>gcweb/data-json</td>
-		</tr>
-		<tr>
-			<td><a href="http://wet-boew.github.io/themes-dist/GCWeb/demos/urlmapping/ajax-en.html">URL Mapping - Ajax</a></td>
-			<td><a href="http://wet-boew.github.io/themes-dist/GCWeb/index-en.html">Canada.ca theme plugins</a></td>
-			<td>Execute pre-configured ajax action based on url query string. (<a href="http://wet-boew.github.io/themes-dist/GCWeb/demos/urlmapping/urlmapping-doc-en.html">Documentation</a>)</td>
-			<td>gcweb/urlmapping</td>
-		</tr>
-		<tr>
-			<td><a href="http://wet-boew.github.io/themes-dist/GCWeb/demos/urlmapping/patches-en.html">URL Mapping - Patching JSON</a></td>
-			<td><a href="http://wet-boew.github.io/themes-dist/GCWeb/index-en.html">Canada.ca theme plugins</a></td>
-			<td>Execute pre-configured patches action based on url query string. (<a href="http://wet-boew.github.io/themes-dist/GCWeb/demos/urlmapping/urlmapping-doc-en.html">Documentation</a>)</td>
-			<td>gcweb/urlmapping</td>
-		</tr>
-		<tr>
-			<td><a href="http://wet-boew.github.io/themes-dist/GCWeb/demos/urlmapping/tblfilter-en.html">URL Mapping - Table filtering</a></td>
-			<td><a href="http://wet-boew.github.io/themes-dist/GCWeb/index-en.html">Canada.ca theme plugins</a></td>
-			<td>Execute pre-configured table filtering action based on url query string. (<a href="http://wet-boew.github.io/themes-dist/GCWeb/demos/urlmapping/urlmapping-doc-en.html">Documentation</a>)</td>
-			<td>gcweb/urlmapping</td>
-		</tr>
 	</tbody>
 </table>
 
-	<div class="pagedetails">
-		<dl id="wb-dtmd">
-			<dt>Date modified:&#32;</dt>
-			<dd><time property="dateModified">2014-07-07</time></dd>
-		</dl>
-		<div class="row">
-			<div class="col-sm-6 col-md-5 col-lg-4">
-				<a href="https://www.canada.ca/en/report-problem.html" class="btn btn-default btn-block">Report a problem on this page</a>
+		<div class="row pagedetails">
+			<div class="col-xs-6 datemod">
+				<dl id="wb-dtmd">
+					<dt>Date modified:&#32;</dt>
+					<dd><time property="dateModified">2014-07-07</time></dd>
+				</dl>
+			</div>
+			<div class="col-xs-6 text-right">
+				<a href="http://www.canada.ca/en/contact/feedback.html" class="btn btn-default"><span class="glyphicon glyphicon-comment mrgn-rght-sm"></span>Feedback<span class="wb-inv"> about this web site</span></a>
 			</div>
 		</div>
-	</div>
 </main>
 	<aside class="gc-nttvs container">
 		<h2>Government of Canada activities and initiatives</h2>
@@ -963,54 +765,95 @@
 			<p>Brief description of the initiative, task or information being promoted.</p>
 		</section>
 	</div>
-	</aside>
-	<footer role="contentinfo" id="wb-info">
-		<nav role="navigation" class="container wb-navcurr">
-			<h2 class="wb-inv">About government</h2>
-			<ul class="list-unstyled colcount-sm-2 colcount-md-3">
-				<li><a href="https://www.canada.ca/en/contact.html">Contact us</a></li>
-				<li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
-				<li><a href="https://www.canada.ca/en/government/publicservice.html">Public service and military</a></li>
-				<li><a href="https://www.canada.ca/en/news.html">News</a></li>
-				<li><a href="https://www.canada.ca/en/government/system/laws.html">Treaties, laws and regulations</a></li>
-				<li><a href="https://www.canada.ca/en/transparency/reporting.html">Government-wide reporting</a></li>
-				<li><a href="http://pm.gc.ca/eng">Prime Minister</a></li>
-				<li><a href="https://www.canada.ca/en/government/system.html">How government works</a></li>
-				<li><a href="http://open.canada.ca/en/">Open government</a></li>
-			</ul>	</nav>
-		<div class="brand">
-			<div class="container">
-				<div class="row ">
-					<nav class="col-md-9 col-lg-10 ftr-urlt-lnk">
-						<h2 class="wb-inv">About this site</h2>
-						<ul>
-							<li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
-							<li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
-							<li><a href="https://www1.canada.ca/en/newsite.html">About Canada.ca</a></li>
-							<li><a href="https://www.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
-							<li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
-						</ul>
-					</nav>
-					<div class="col-xs-6 visible-sm visible-xs tofpg">
-						<a href="#wb-cont">Top of Page <span class="glyphicon glyphicon-chevron-up"></span></a>
-					</div>
-					<div class="col-xs-6 col-md-3 col-lg-2 text-right">
-						<object type="image/svg+xml" tabindex="-1" role="img" data="../../GCWeb/assets/wmms-blk.svg" aria-label="Symbol of the Government of Canada"></object>
-					</div>
+	</aside><footer role="contentinfo" id="wb-info">
+	<nav role="navigation" class="container visible-sm visible-md visible-lg wb-navcurr">
+		<h2 class="wb-inv">About this site</h2>
+		<div class="row">
+			<div class="col-sm-3 col-lg-3">
+				<section>
+					<h3>Contact information</h3>
+					<ul class="list-unstyled">
+						<li><a href="#">Link 1</a></li>
+						<li><a href="#">Link 2</a></li>
+						<li><a href="#">Link 3</a></li>
+					</ul>
+				</section>
+				<section>
+					<h3>News</h3>
+					<ul class="list-unstyled">
+						<li><a href="http://news.gc.ca/web/index-en.do">Newsroom</a></li>
+						<li><a href="http://news.gc.ca/web/nwsprdct-en.do?mthd=tp&amp;crtr.tp1D=1">News releases</a></li>
+						<li><a href="http://news.gc.ca/web/nwsprdct-en.do?mthd=tp&amp;crtr.tp1D=3">Media advisories</a></li>
+						<li><a href="http://news.gc.ca/web/nwsprdct-en.do?mthd=tp&amp;crtr.tp1D=970">Speeches</a></li>
+						<li><a href="http://news.gc.ca/web/nwsprdct-en.do?mthd=tp&amp;crtr.tp1D=980">Statements</a></li>
+					</ul>
+				</section>
+			</div>
+			<section class="col-sm-3 col-lg-3">
+				<h3>Government</h3>
+				<ul class="list-unstyled">
+					<li><a href="http://www.canada.ca/en/gov/system">How government works</a></li>
+					<li><a href="http://www.canada.ca/en/gov/dept">Departments & agencies</a></li>
+					<li><a href="http://pm.gc.ca/eng">Prime Minister</a></li>
+					<li><a href="http://www.canada.ca/en/gov/ministers">Ministers</a></li>
+					<li><a href="http://www.canada.ca/en/gov/publicservice">Public service & military</a></li>
+					<li><a href="http://www.canada.ca/en/gov/policy">Policies, regulations & laws</a></li>
+					<li><a href="http://www.canada.ca/en/gov/libraries">Libraries</a></li>
+					<li><a href="http://www.canada.ca/en/gov/publications">Publications</a></li>
+					<li><a href="http://www.canada.ca/en/gov/statistics">Statistics & data</a></li>
+					<li><a href="http://www.canada.ca/en/newsite.html">About Canada.ca</a></li>
+				</ul>
+			</section>
+			<section class="col-sm-3 col-lg-3 brdr-lft">
+				<h3>Transparency</h3>
+				<ul class="list-unstyled">
+					<li><a href="http://www.canada.ca/en/transparency/reporting.html">Government-wide reporting</a></li>
+					<li><a href="http://open.canada.ca/en">Open government</a></li>
+					<li><a href="http://www.canada.ca/en/transparency/disclosure.html">Proactive disclosure</a></li>
+					<li><a href="http://www.canada.ca/en/transparency/terms.html">Terms & conditions</a></li>
+					<li><a href="http://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
+				</ul>
+			</section>
+			<div class="col-sm-3 col-lg-3 brdr-lft">
+				<section>
+					<h3>Feedback</h3>
+					<p><a href="http://www.canada.ca/en/contact/feedback.html"><img src="../assets/feedback.png" alt="Feedback about this Web site" /></a></p>
+				</section>
+				<section>
+					<h3>Social media</h3>
+					<p><a href="http://www.canada.ca/en/social"><img src="../assets/social.png" alt="Social media" /></a></p>
+				</section>
+				<section>
+					<h3>Mobile centre</h3>
+					<p><a href="http://www.canada.ca/en/mobile"><img src="../assets/mobile.png" alt="Mobile centre" /></a></p>
+				</section>
+			</div>
+		</div>	</nav>
+	
+	<div class="brand">
+		<div class="container">
+			<div class="row ">
+				<div class="col-xs-6 visible-sm visible-xs tofpg">
+					<a href="#wb-cont">Top of Page <span class="glyphicon glyphicon-chevron-up"></span></a>
+				</div>
+				<div class="col-xs-6 col-md-12 text-right">
+					<object type="image/svg+xml" tabindex="-1" role="img" data="../assets/wmms-blk.svg" aria-label="Symbol of the Government of Canada"></object>
 				</div>
 			</div>
 		</div>
-	</footer>
+	</div>
+	
+</footer>
+
 		<!--[if gte IE 9 | !IE ]><!-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-		<script src="../../wet-boew/js/wet-boew.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+		<script src="../js/wet-boew.js"></script>
 		<!--<![endif]-->
-		
 		<!--[if lt IE 9]>
-		<script src="../../wet-boew/js/ie8-wet-boew2.js"></script>
-		
+		<script src="../js/ie8-wet-boew2.js"></script>
 		<![endif]-->
-		<script src="../../GCWeb/js/theme.js"></script>
+		<script src="../js/theme.js"></script>
+		
 		
 	</body>
 </html>

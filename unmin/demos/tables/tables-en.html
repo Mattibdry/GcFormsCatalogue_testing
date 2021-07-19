@@ -13,27 +13,28 @@
 		<meta name="description" content="Integrates the DataTables plugin into WET providing searching, sorting, filtering, pagination and other advanced features for tables." />
 		<!-- Meta data-->
 		<!--[if gte IE 9 | !IE ]><!-->
-		<link href="../../../GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon" />
-		<link rel="stylesheet" href="../../../GCWeb/css/theme.css" />
+		<link href="../../assets/favicon.ico" rel="icon" type="image/x-icon" />
+		<link rel="stylesheet" href="../../css/wet-boew.css" />
 		<!--<![endif]-->
+		<link rel="stylesheet" href="../../css/theme.css" />
+		
 		
 		
 		
 		
 		<!--[if lt IE 9]>
-		<link href="../../../GCWeb/assets/favicon.ico" rel="shortcut icon" />
+		<link href="../../assets/favicon.ico" rel="shortcut icon" />
 		
-		<link rel="stylesheet" href="../../../GCWeb/css/ie8-theme.css" />
+		<link rel="stylesheet" href="../../css/ie8-wet-boew.css" />
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
-		<script src="../../../wet-boew/js/ie8-wet-boew.js"></script>
+		<script src="../../js/ie8-wet-boew.js"></script>
 		<![endif]-->
 		<!--[if lte IE 9]>
 		
 		
 		<![endif]-->
 		
-		<noscript><link rel="stylesheet" href="../../../wet-boew/css/noscript.css" /></noscript>
-		
+		<noscript><link rel="stylesheet" href="../../css/noscript.css" /></noscript>
 		<!-- Google Tag Manager DO NOT REMOVE OR MODIFY - NE PAS SUPPRIMER OU MODIFIER -->
 		<script>dataLayer1 = [];</script>
 		<!-- End Google Tag Manager -->
@@ -48,94 +49,88 @@
 	<li class="wb-slc">
 		<a class="wb-sl" href="#wb-cont">Skip to main content</a>
 	</li>
-	<li class="wb-slc">
-		<a class="wb-sl" href="#wb-info">Skip to "About government"</a>
+	<li class="wb-slc visible-sm visible-md visible-lg">
+		<a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
 	</li>
-</ul><header role="banner">
+</ul>
+<header role="banner">
 	<div id="wb-bnr" class="container">
-	<section id="wb-lng" class="visible-md visible-lg text-right">
-		<h2 class="wb-inv">Language selection</h2>
-		<div class="row">
-			<div class="col-md-12">
-				<ul class="list-inline margin-bottom-none">
-					<li><a lang="fr" href="tables-fr.html">Français</a></li>
-				</ul>
+		<section id="wb-lng" class="visible-md visible-lg text-right">
+			<h2 class="wb-inv">Language selection</h2>
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="list-inline margin-bottom-none">
+						<li><a lang="fr" href="tables-fr.html">Français</a></li>
+					</ul>
+				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 		<div class="row">
 				<div class="brand col-xs-8 col-sm-9 col-md-6">
-					<a href="https://www.canada.ca/en.html"><object type="image/svg+xml" tabindex="-1" data="../../../GCWeb/assets/sig-blk-en.svg"></object><span class="wb-inv"> Government of Canada / <span lang="fr">Gouvernement du Canada</span></span></a>
+					<a href="http://www.canada.ca/en/index.html"><object type="image/svg+xml" tabindex="-1" data="../../assets/sig-blk-en.svg"></object><span class="wb-inv"> Government of Canada</span></a>
 				</div>
-	<section class="wb-mb-links col-xs-4 col-sm-3 visible-sm visible-xs" id="wb-glb-mn">
-		<h2>Search and menus</h2>
-		<ul class="list-inline text-right chvrn">
-			<li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
-		</ul>
-		<div id="mb-pnl"></div>
-	</section>
-	<section id="wb-srch" class="col-xs-6 text-right visible-md visible-lg">
-		<h2>Search</h2>
-		<form action="#" method="post" name="cse-search-box" role="search" class="form-inline">
-			<div class="form-group">
-				<label for="wb-srch-q" class="wb-inv">Search website</label>
-				<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="27" maxlength="150" placeholder="Search Canada.ca" />
-				<datalist id="wb-srch-q-ac">
-					<!--[if lte IE 9]><select><![endif]-->
-					<!--[if lte IE 9]></select><![endif]-->
-				</datalist>
-			</div>
-			<div class="form-group submit">
-				<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
-			</div>
-		</form>
-	</section>
+			<section class="wb-mb-links col-xs-4 col-sm-3 visible-sm visible-xs" id="wb-glb-mn" >
+				<h2>Search and menus</h2>
+				<ul class="list-inline text-right chvrn">
+					<li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
+				</ul>
+				<div id="mb-pnl"></div>
+			</section>
+			<section id="wb-srch" class="col-xs-6 text-right visible-md visible-lg">
+				<h2 class="wb-inv">Search</h2>
+				<form action="#" method="post" name="cse-search-box" role="search" class="form-inline">
+					<div class="form-group">
+						<label for="wb-srch-q" class="wb-inv">Search website</label>
+						<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="27" maxlength="150" placeholder="Search Canada.ca" />
+						<datalist id="wb-srch-q-ac">
+							<!--[if lte IE 9]><select><![endif]-->
+							<!--[if lte IE 9]></select><![endif]-->
+						</datalist>
+					</div>
+					<div class="form-group submit">
+						<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
+					</div>
+				</form>			</section>
 		</div>
 	</div>
-	<nav role="navigation" id="wb-sm" data-ajax-replace="../../ajax/sitemenu-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+	<nav role="navigation" id="wb-sm" class="wb-menu visible-md visible-lg" data-trgt="mb-pnl" data-ajax-fetch="../../ajax/sitemenu-en.html" typeof="SiteNavigationElement">
+		<h2 class="wb-inv">Topics menu</h2>
 		<div class="container nvbar">
-			<h2>Topics menu</h2>
-			<div class="row">
-				<ul class="list-inline menu">
-					<li><a href="https://www.canada.ca/en/services/jobs.html">Jobs</a></li>
-					<li><a href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration</a></li>
-					<li><a href="https://travel.gc.ca/">Travel</a></li>
-					<li><a href="https://www.canada.ca/en/services/business.html">Business</a></li>
-					<li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
-					<li><a href="https://www.canada.ca/en/services/health.html">Health</a></li>
-					<li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
-					<li><a href="https://www.canada.ca/en/services.html">More services</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<nav role="navigation" id="wb-bc" property="breadcrumb">
-		<h2>You are here:</h2>
+		    <div class="row">
+		        <ul class="list-inline menu">
+		            <li><a href="http://www.esdc.gc.ca/en/jobs/index.page">Jobs</a></li>
+		            <li><a href="http://www.cic.gc.ca/english/index.asp">Immigration</a></li>
+		            <li><a href="http://travel.gc.ca">Travel</a></li>
+		            <li><a href="http://www.canada.ca/en/services/business/index.html">Business</a></li>
+		            <li><a href="http://www.canada.ca/en/services/benefits/index.html">Benefits</a></li>
+		            <li><a href="http://healthycanadians.gc.ca/index-eng.php">Health</a></li>
+		            <li><a href="http://www.canada.ca/en/services/taxes/index.html">Taxes</a></li>
+		            <li><a href="http://www.canada.ca/en/services/index.html">More services</a></li>
+		        </ul>
+		    </div>
+		</div>	</nav>
+	<nav role="navigation" id="wb-bc" class="" property="breadcrumb">
+		<h2 class="wb-inv">You are here:</h2>
 		<div class="container">
 			<div class="row">
 				<ol class="breadcrumb">
 					<li>
-						<a href="http://wet-boew.github.io/wet-boew/index-en.html">Home</a>
+						<a href="/index-en.html">Home</a>
 					</li>
-					<li>
-						<a href="http://wet-boew.github.io/wet-boew/demos/index-en.html">Working examples</a>
-					</li>
+						<li>
+							<a href="/demos/index-en.html">Working examples</a>
+						</li>
 					<li>Tables</li>
 				</ol>
 			</div>
 		</div>
 	</nav>
 </header>
-<main role="main" property="mainContentOfPage" class="container
-
-
-
-
-
-">
+<main role="main" property="mainContentOfPage" class="container">
 			<h1 property="name" id="wb-cont">Tables</h1>
 			
 			
+
 <section>
 	<h2>Example</h2>
 	<p>Integrates the <a href="http://www.datatables.net">DataTables</a> plugin into WET providing searching, sorting, filtering, pagination and other advanced features for tables.</p>
@@ -558,6 +553,7 @@
 		</tbody>
 	</table>
 	<div class="clearfix"></div>
+
 	<h3>Options Example</h3>
 	<p>The <a href="http://www.datatables.net/ref">DataTables API</a> is fully accessible through the <code>data-wb-tables</code> attribute using a JSON array.</p>
 	<pre>&lt;table class="wb-tables table table-striped table-hover" data-wb-tables='{ "ordering" : false }'&gt;</pre>
@@ -977,191 +973,19 @@
 			</tr>
 		</tbody>
 	</table>
-    <h3>Filtering Example</h3>
-    <p>The <a href="http://www.datatables.net/ref">DataTables API</a> is fully accessible through the <code>data-wb-tables</code> attribute using a JSON Property array. and filtering can be triggered with <code>.wb-tables-filter</code> class</p>
-    <div class="row">
-        <div class="col-md-3">
-            <h4 class="wb-inv">Filtering Options</h4>
-            <details open>
-                <summary><h4 class="h4">Filter Options</h4></summary>
-                <p class="mrgn-tp-md">Use filters to below options to change the focus of your results in following data table</p>
-                <form class="wb-tables-filter" data-bind-to="dataset-filter">
-                    <div class="form-group">
-                        <label for="dt_type">Data Type</label>
-                        <select class="form-control" id="dt_type" name="dt_type" data-column="3">
-                            <option value="">All news types</option>
-                            <option value="News Releases">News Releases</option>
-                            <option value="Backgrounders">Backgrounders</option>
-                            <option value="Media Advisories">Media Advisories</option>
-                            <option value="Speeches">Speeches</option>
-                            <option value="Statements">Statements</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="dt_department">Department</label>
-                        <select class="form-control" id="dt_department" name="dt_department" data-column="2">
-                            <option value="">From any department</option>
-                            <option value="Agriculture and Agri-Food Canada">Agriculture and Agri-Food Canada</option>
-                            <option value="Atlantic Canada Opportunities Agency">Atlantic Canada Opportunities Agency</option>
-                            <option value="Canadian Heritage">Canadian Heritage</option>
-                            <option value="Infrastructure Canada">Infrastructure Canada</option>
-                            <option value="Innovation, Science and Economic Development Canada">Innovation, Science and Economic Development Canada</option>
-                            <option value="National Defence and the Canadian Armed Forces">National Defence and the Canadian Armed Forces</option>
-                            <option value="Employment and Social Development Canada">Employment and Social Development Canada</option>
-                            <option value="Global Affairs Canada">Global Affairs Canada</option>
-                            <option value="Indigenous and Northern Affairs Canada">Indigenous and Northern Affairs Canada</option>
-                            <option value="Competition Bureau">Competition Bureau</option>
-                            <option value="Canadian Grain Commission">Canadian Grain Commission</option>
-                            <option value="National Energy Board">National Energy Board</option>
-                            <option value="Canadian Radio-television and Telecommunications Commission">Canadian Radio-television and Telecommunications Commission</option>
-                            <option value="Public Health Agency of Canada">Public Health Agency of Canada</option>
-                            <option value="Correctional Service Canada">Correctional Service Canada</option>
-                            <option value="Parks Canada">Parks Canada</option>
-                            <option value="Veterans Affairs Canada">Veterans Affairs Canada</option>
-                            <option value="Health Canada">Health Canada</option>
-                            <option value="National Film Board">National Film Board</option>
-                            <option value="Government of Canada">Government of Canada</option>
-                            <option value="Federal Economic Development Agency for Southern Ontario">Federal Economic Development Agency for Southern Ontario</option>
-                            <option value="Canadian Environmental Assessment Agency">Canadian Environmental Assessment Agency</option>
-                            <option value="Fisheries and Oceans Canada">Fisheries and Oceans Canada</option>
-                            <option value="Canadian Institutes of Health Research">Canadian Institutes of Health Research</option>
-                            <option value="Transportation Safety Board of Canada">Transportation Safety Board of Canada</option>
-                            <option value="Canadian Nuclear Safety Commission">Canadian Nuclear Safety Commission</option>
-                            <option value="Transport Canada">Transport Canada</option>
-                            <option value="Treasury Board of Canada Secretariat">Treasury Board of Canada Secretariat</option>
-                            <option value="Environment and Climate Change Canada">Environment and Climate Change Canada</option>
-                            <option value="Finance Canada">Finance Canada</option>
-                            <option value="Canada Economic Development for Quebec Regions">Canada Economic Development for Quebec Regions</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="dt_minister">Minister</label>
-                        <select class="form-control" id="dt_minister" name="dt_minister" data-column="8">
-                            <option value="">Related to any minister</option>
-                            <option value="Hon. Lawrence MacAulay">Hon. Lawrence MacAulay</option>
-                            <option value="Hon. Navdeep Singh Bains">Hon. Navdeep Singh Bains</option>
-                            <option value="Hon. Amarjeet Sohi">Hon. Amarjeet Sohi</option>
-                            <option value="Hon. Kirsty Duncan">Hon. Kirsty Duncan</option>
-                            <option value="Hon. Jean-Yves Duclos">Hon. Jean-Yves Duclos</option>
-                            <option value="Hon. Stéphane Dion">Hon. Stéphane Dion</option>
-                            <option value="Hon. Carolyn Bennett">Hon. Carolyn Bennett</option>
-                            <option value="Hon. Jane Philpott">Hon. Jane Philpott</option>
-                            <option value="Hon. MaryAnn Mihychuk">Hon. MaryAnn Mihychuk</option>
-                            <option value="Hon. Ralph Goodale">Hon. Ralph Goodale</option>
-                            <option value="Hon. Catherine McKenna">Hon. Catherine McKenna</option>
-                            <option value="Hon. Kent Hehr">Hon. Kent Hehr</option>
-                            <option value="Hon. Harjit Singh Sajjan">Hon. Harjit Singh Sajjan</option>
-                            <option value="Hon. Dominic LeBlanc">Hon. Dominic LeBlanc</option>
-                            <option value="Hon. Mélanie Joly">Hon. Mélanie Joly</option>
-                            <option value="Hon. Marc Garneau">Hon. Marc Garneau</option>
-                            <option value="Hon. Scott Brison">Hon. Scott Brison</option>
-                            <option value="Hon. Marie-Claude Bibeau">Hon. Marie-Claude Bibeau</option>
-                            <option value="Hon. William Francis Morneau">Hon. William Francis Morneau</option>
-                            <option value="Right Hon. Justin P. J. Trudeau">Right Hon. Justin P. J. Trudeau</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="dt_audience">For</label>
-                        <select class="form-control" id="dt_audience" name="dt_audience" data-column="6">
-                            <option value="">Everyone</option>
-                            <option value="Media">Media</option>
-                            <option value="Farmers">Farmers</option>
-                            <option value="General Public">General Public</option>
-                            <option value="Rural Community">Rural Community</option>
-                            <option value="Travellers">Travellers</option>
-                            <option value="Visitors">Visitors</option>
-                            <option value="Business">Business</option>
-                            <option value="Students">Students</option>
-                            <option value="Parents">Parents</option>
-                            <option value="Youth">Youth</option>
-                            <option value="Employers">Employers</option>
-                            <option value="Job Seekers">Job Seekers</option>
-                            <option value="Government">Government</option>
-                            <option value="Scientists">Scientists</option>
-                            <option value="Veterans">Veterans</option>
-                            <option value="Seniors">Seniors</option>
-                            <option value="Children">Children</option>
-                            <option value="Educators">Educators</option>
-                            <option value="Aboriginal Peoples">Aboriginal Peoples</option>
-                            <option value="Non-Governmental Organizations">Non-Governmental Organizations</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="dt_location">Location</label>
-                        <select class="form-control" id="dt_location" name="dt_location" data-column="5">
-                            <option value="">Anywhere</option>
-                            <option value="Manitoba">Manitoba</option>
-                            <option value="Canada">Canada</option>
-                            <option value="Nova Scotia">Nova Scotia</option>
-                            <option value="Alberta">Alberta</option>
-                            <option value="Ontario">Ontario</option>
-                            <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
-                            <option value="New Brunswick">New Brunswick</option>
-                            <option value="Saskatchewan">Saskatchewan</option>
-                            <option value="British Columbia">British Columbia</option>
-                            <option value="Quebec">Quebec</option>
-                            <option value="Yukon Territory">Yukon Territory</option>
-                            <option value="Prince Edward Island">Prince Edward Island</option>
-                        </select>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <button type="submit" class="btn btn-primary" aria-controls="dataset-filter">Filter</button>
-                        </div>
-                        <div class="col-xs-6">
-                            <button type="reset" class="btn btn-default">Clear</button>
-                        </div>
-                    </div>
-                </form>
-            </details>
-        </div>
-        <div class="col-md-9">
-            <table class="wb-tables table table-striped table-hover" id="dataset-filter" aria-live="polite" data-wb-tables='{
-            "bDeferRender": true,
-            "ajaxSource": "ajax/datasource.json",
-            "order": [5, "desc"],
-             "columns": [
-                { "data": "TITLE", "className": "nws-tbl-ttl h4" },
-                { "data": "PUBDATE", "className": "nws-tbl-date" },
-                { "data": "DEPT", "className": "nws-tbl-dept" },
-                { "data": "TYPE", "className": "nws-tbl-type" },
-                { "data": "TEASER",  "className": "nws-tbl-desc" },
-                { "data": "LOCATION",  "visible": false },
-                { "data": "AUDIENCE",  "visible": false },
-                { "data": "SUBJECT", "visible": false },
-                { "data": "MINISTER", "visible": false }
-              ]}'>
-                <thead>
-                <tr>
-                    <th>Title</th>
-                    <th>Publication date</th>
-                    <th>Department</th>
-                    <th>News Type</th>
-                    <th>Summary</th>
-                    <th>Location</th>
-                    <th>For</th>
-                    <th>Subject</th>
-                    <th>Minister</th>
-                </tr>
-                </thead>
-            </table>
-        </div>
-    </div>
-
-
-
 </section>
-	<div class="pagedetails">
-		<dl id="wb-dtmd">
-			<dt>Date modified:&#32;</dt>
-			<dd><time property="dateModified">2014-02-19</time></dd>
-		</dl>
-		<div class="row">
-			<div class="col-sm-6 col-md-5 col-lg-4">
-				<a href="https://www.canada.ca/en/report-problem.html" class="btn btn-default btn-block">Report a problem on this page</a>
+
+		<div class="row pagedetails">
+			<div class="col-xs-6 datemod">
+				<dl id="wb-dtmd">
+					<dt>Date modified:&#32;</dt>
+					<dd><time property="dateModified">2014-02-19</time></dd>
+				</dl>
+			</div>
+			<div class="col-xs-6 text-right">
+				<a href="http://www.canada.ca/en/contact/feedback.html" class="btn btn-default"><span class="glyphicon glyphicon-comment mrgn-rght-sm"></span>Feedback<span class="wb-inv"> about this web site</span></a>
 			</div>
 		</div>
-	</div>
 </main>
 	<aside class="gc-nttvs container">
 		<h2>Government of Canada activities and initiatives</h2>
@@ -1188,54 +1012,95 @@
 			<p>Brief description of the initiative, task or information being promoted.</p>
 		</section>
 	</div>
-	</aside>
-	<footer role="contentinfo" id="wb-info">
-		<nav role="navigation" class="container wb-navcurr">
-			<h2 class="wb-inv">About government</h2>
-			<ul class="list-unstyled colcount-sm-2 colcount-md-3">
-				<li><a href="https://www.canada.ca/en/contact.html">Contact us</a></li>
-				<li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
-				<li><a href="https://www.canada.ca/en/government/publicservice.html">Public service and military</a></li>
-				<li><a href="https://www.canada.ca/en/news.html">News</a></li>
-				<li><a href="https://www.canada.ca/en/government/system/laws.html">Treaties, laws and regulations</a></li>
-				<li><a href="https://www.canada.ca/en/transparency/reporting.html">Government-wide reporting</a></li>
-				<li><a href="http://pm.gc.ca/eng">Prime Minister</a></li>
-				<li><a href="https://www.canada.ca/en/government/system.html">How government works</a></li>
-				<li><a href="http://open.canada.ca/en/">Open government</a></li>
-			</ul>	</nav>
-		<div class="brand">
-			<div class="container">
-				<div class="row ">
-					<nav class="col-md-9 col-lg-10 ftr-urlt-lnk">
-						<h2 class="wb-inv">About this site</h2>
-						<ul>
-							<li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
-							<li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
-							<li><a href="https://www1.canada.ca/en/newsite.html">About Canada.ca</a></li>
-							<li><a href="https://www.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
-							<li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
-						</ul>
-					</nav>
-					<div class="col-xs-6 visible-sm visible-xs tofpg">
-						<a href="#wb-cont">Top of Page <span class="glyphicon glyphicon-chevron-up"></span></a>
-					</div>
-					<div class="col-xs-6 col-md-3 col-lg-2 text-right">
-						<object type="image/svg+xml" tabindex="-1" role="img" data="../../../GCWeb/assets/wmms-blk.svg" aria-label="Symbol of the Government of Canada"></object>
-					</div>
+	</aside><footer role="contentinfo" id="wb-info">
+	<nav role="navigation" class="container visible-sm visible-md visible-lg wb-navcurr">
+		<h2 class="wb-inv">About this site</h2>
+		<div class="row">
+			<div class="col-sm-3 col-lg-3">
+				<section>
+					<h3>Contact information</h3>
+					<ul class="list-unstyled">
+						<li><a href="#">Link 1</a></li>
+						<li><a href="#">Link 2</a></li>
+						<li><a href="#">Link 3</a></li>
+					</ul>
+				</section>
+				<section>
+					<h3>News</h3>
+					<ul class="list-unstyled">
+						<li><a href="http://news.gc.ca/web/index-en.do">Newsroom</a></li>
+						<li><a href="http://news.gc.ca/web/nwsprdct-en.do?mthd=tp&amp;crtr.tp1D=1">News releases</a></li>
+						<li><a href="http://news.gc.ca/web/nwsprdct-en.do?mthd=tp&amp;crtr.tp1D=3">Media advisories</a></li>
+						<li><a href="http://news.gc.ca/web/nwsprdct-en.do?mthd=tp&amp;crtr.tp1D=970">Speeches</a></li>
+						<li><a href="http://news.gc.ca/web/nwsprdct-en.do?mthd=tp&amp;crtr.tp1D=980">Statements</a></li>
+					</ul>
+				</section>
+			</div>
+			<section class="col-sm-3 col-lg-3">
+				<h3>Government</h3>
+				<ul class="list-unstyled">
+					<li><a href="http://www.canada.ca/en/gov/system">How government works</a></li>
+					<li><a href="http://www.canada.ca/en/gov/dept">Departments & agencies</a></li>
+					<li><a href="http://pm.gc.ca/eng">Prime Minister</a></li>
+					<li><a href="http://www.canada.ca/en/gov/ministers">Ministers</a></li>
+					<li><a href="http://www.canada.ca/en/gov/publicservice">Public service & military</a></li>
+					<li><a href="http://www.canada.ca/en/gov/policy">Policies, regulations & laws</a></li>
+					<li><a href="http://www.canada.ca/en/gov/libraries">Libraries</a></li>
+					<li><a href="http://www.canada.ca/en/gov/publications">Publications</a></li>
+					<li><a href="http://www.canada.ca/en/gov/statistics">Statistics & data</a></li>
+					<li><a href="http://www.canada.ca/en/newsite.html">About Canada.ca</a></li>
+				</ul>
+			</section>
+			<section class="col-sm-3 col-lg-3 brdr-lft">
+				<h3>Transparency</h3>
+				<ul class="list-unstyled">
+					<li><a href="http://www.canada.ca/en/transparency/reporting.html">Government-wide reporting</a></li>
+					<li><a href="http://open.canada.ca/en">Open government</a></li>
+					<li><a href="http://www.canada.ca/en/transparency/disclosure.html">Proactive disclosure</a></li>
+					<li><a href="http://www.canada.ca/en/transparency/terms.html">Terms & conditions</a></li>
+					<li><a href="http://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
+				</ul>
+			</section>
+			<div class="col-sm-3 col-lg-3 brdr-lft">
+				<section>
+					<h3>Feedback</h3>
+					<p><a href="http://www.canada.ca/en/contact/feedback.html"><img src="../../assets/feedback.png" alt="Feedback about this Web site" /></a></p>
+				</section>
+				<section>
+					<h3>Social media</h3>
+					<p><a href="http://www.canada.ca/en/social"><img src="../../assets/social.png" alt="Social media" /></a></p>
+				</section>
+				<section>
+					<h3>Mobile centre</h3>
+					<p><a href="http://www.canada.ca/en/mobile"><img src="../../assets/mobile.png" alt="Mobile centre" /></a></p>
+				</section>
+			</div>
+		</div>	</nav>
+	
+	<div class="brand">
+		<div class="container">
+			<div class="row ">
+				<div class="col-xs-6 visible-sm visible-xs tofpg">
+					<a href="#wb-cont">Top of Page <span class="glyphicon glyphicon-chevron-up"></span></a>
+				</div>
+				<div class="col-xs-6 col-md-12 text-right">
+					<object type="image/svg+xml" tabindex="-1" role="img" data="../../assets/wmms-blk.svg" aria-label="Symbol of the Government of Canada"></object>
 				</div>
 			</div>
 		</div>
-	</footer>
+	</div>
+	
+</footer>
+
 		<!--[if gte IE 9 | !IE ]><!-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-		<script src="../../../wet-boew/js/wet-boew.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+		<script src="../../js/wet-boew.js"></script>
 		<!--<![endif]-->
-		
 		<!--[if lt IE 9]>
-		<script src="../../../wet-boew/js/ie8-wet-boew2.js"></script>
-		
+		<script src="../../js/ie8-wet-boew2.js"></script>
 		<![endif]-->
-		<script src="../../../GCWeb/js/theme.js"></script>
+		<script src="../../js/theme.js"></script>
+		
 		
 	</body>
 </html>
